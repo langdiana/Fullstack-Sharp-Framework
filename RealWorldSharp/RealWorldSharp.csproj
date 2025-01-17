@@ -16,4 +16,10 @@
     <ProjectReference Include="..\SharpHtml\SharpHtml.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="wwroot\main.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
