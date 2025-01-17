@@ -41,8 +41,6 @@ using (var scope = app.Services.CreateScope())
 	Utils.SeedContext(context!);
 }
 
-// Configure the HTTP request pipeline.
-
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
