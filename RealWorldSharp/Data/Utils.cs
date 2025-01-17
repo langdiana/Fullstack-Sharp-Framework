@@ -1,4 +1,4 @@
-﻿using LoremNET;
+﻿using Lorem;
 using RealWorldSharp.Data.Entities;
 
 namespace RealWorldSharp.Data;
@@ -16,7 +16,7 @@ public class Utils
 				Username = "eric-simons",
 				Password = "abc",
 				Image = "https://i.imgur.com/Qr71crq.jpg",
-				Bio = LoremNET.Generate.Sentence(5,20),
+				Bio = Lorem.Generate.Sentence(5,20),
 			},
 			new User
 			{
@@ -25,7 +25,7 @@ public class Utils
 				Username = "albert-pai",
 				Password = "abc",
 				Image = "https://i.imgur.com/N4VcUeJ.jpg",
-				Bio = LoremNET.Generate.Sentence(5,20),
+				Bio = Lorem.Generate.Sentence(5,20),
 			},
 			new User
 			{
@@ -34,7 +34,7 @@ public class Utils
 				Username = "user3",
 				Password = "abc",
 				Image = "https://i.stack.imgur.com/xHWG8.jpg",
-				Bio = LoremNET.Generate.Sentence(5,20),
+				Bio = Lorem.Generate.Sentence(5,20),
 			},
 			new User
 			{
@@ -43,7 +43,7 @@ public class Utils
 				Username = "user4",
 				Password = "abc",
 				Image = "https://i.stack.imgur.com/xHWG8.jpg",
-				Bio = LoremNET.Generate.Sentence(5,20),
+				Bio = Lorem.Generate.Sentence(5,20),
 			},
 		];
 	}
@@ -59,11 +59,11 @@ public class Utils
 				{
 					ArticleId = i,
 					Slug = Guid.NewGuid().ToString(),
-					Title = LoremNET.Generate.Sentence(5, 20),
-					Description = LoremNET.Generate.Sentence(5, 20),
-					Body = LoremNET.Generate.Paragraph(10, 50, 1, 10),
+					Title = Lorem.Generate.Sentence(5, 20),
+					Description = Lorem.Generate.Sentence(5, 20),
+					Body = Lorem.Generate.Paragraph(10, 50, 1, 10),
 					UserId = rand.Next(1, 5),
-					CreatedAt = LoremNET.Generate.DateTime(DateTime.Now.AddDays(-100)),
+					CreatedAt = Lorem.Generate.DateTime(DateTime.Now.AddDays(-100)),
 				}
 			);
 
@@ -77,7 +77,7 @@ public class Utils
 		List<string> tags = new ();
 
 		for (int i = 1; i <= tagCount; i++)
-			tags.Add(LoremNET.Generate.Words(1));
+			tags.Add(Lorem.Generate.Words(1));
 
 		for (int i = 1; i <= tags.Count; i++)
 			list.Add(
