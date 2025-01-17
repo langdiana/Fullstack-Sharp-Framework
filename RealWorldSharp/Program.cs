@@ -8,10 +8,14 @@ var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 	WebRootPath = "StaticFiles",
 });
 
-// Add services to the container.
+builder.Services
+	.AddCors(policy => policy
+	.AddDefaultPolicy(builder => builder
+	.AllowAnyOrigin()
+	.AllowAnyHeader()
+	.AllowAnyMethod()));
 
-builder.AddCorsFeature();
-builder.AddAuthFeature();
+builder.AddAuth();
 
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
@@ -42,8 +46,8 @@ using (var scope = app.Services.CreateScope())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-app.UseCorsFeature();
-app.UseAuthFeature();
+app.UseCors();
+app.UseAuth();
 
 app.MapEndpoints();
 

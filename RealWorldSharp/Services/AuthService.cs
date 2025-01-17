@@ -43,7 +43,7 @@ public class AuthService: IAuthService
 public static class Auth
 {
 
-	public static void AddAuthFeature(this WebApplicationBuilder builder)
+	public static void AddAuth(this WebApplicationBuilder builder)
 	{
 		var scheme = CookieAuthenticationDefaults.AuthenticationScheme;
 
@@ -57,28 +57,10 @@ public static class Auth
 		builder.Services.AddAuthorization();
 	}
 
-	public static IApplicationBuilder UseAuthFeature(this IApplicationBuilder app)
+	public static IApplicationBuilder UseAuth(this IApplicationBuilder app)
 	{
 		return app
 			.UseAuthentication()
 			.UseAuthorization();
-	}
-}
-
-public static class Cors
-{
-	public static void AddCorsFeature(this WebApplicationBuilder builder)
-	{
-		builder.Services
-			.AddCors(policy => policy
-			.AddDefaultPolicy(builder => builder
-			.AllowAnyOrigin()
-			.AllowAnyHeader()
-			.AllowAnyMethod()));
-	}
-
-	public static IApplicationBuilder UseCorsFeature(this IApplicationBuilder app)
-	{
-		return app.UseCors();
 	}
 }
