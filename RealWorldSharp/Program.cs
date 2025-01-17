@@ -5,7 +5,7 @@ using RealWorldSharp.Repos;
 var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 {
 	Args = args,
-	WebRootPath = "StaticFiles",
+	WebRootPath = "wwroot",
 });
 
 builder.Services
