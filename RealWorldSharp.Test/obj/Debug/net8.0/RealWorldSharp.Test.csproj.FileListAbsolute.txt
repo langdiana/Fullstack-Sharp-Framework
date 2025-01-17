@@ -131,3 +131,4 @@ C:\TFSProjects_BV\RealWorldSharp\RealWorldSharp.Test\bin\Debug\net8.0\RealWorldS
 C:\TFSProjects_BV\RealWorldSharp\RealWorldSharp.Test\bin\Debug\net8.0\LoremNET.pdb
 C:\TFSProjects_BV\RealWorldSharp\RealWorldSharp.Test\bin\Debug\net8.0\SharpHtml.pdb
 C:\TFSProjects_BV\RealWorldSharp\RealWorldSharp.Test\bin\Debug\net8.0\HtmlAgilityPack.dll
+C:\TFSProjects_BV\RealWorldSharp\RealWorldSharp.Test\obj\Debug\net8.0\RealWorldSharp.Test.sourcelink.json
