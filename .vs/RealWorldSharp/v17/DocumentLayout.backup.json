@@ -418,8 +418,7 @@
               "ViewState": "AgIAAG0AAAAAAAAAAAAcwIIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T21:34:31.284Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -979,8 +978,7 @@
               "RelativeToolTip": "RealWorldSharp\\Repos\\RealWorldRepo.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAuwC4AAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T00:23:43.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-03T00:23:43.567Z"
             },
             {
               "$type": "Document",
@@ -1472,8 +1470,7 @@
               "RelativeToolTip": "RealWorldSharp.Test\\UnitTest\\CommandHandlerTest.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-31T01:35:46.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-31T01:35:46.704Z"
             },
             {
               "$type": "Document",
@@ -1533,8 +1530,7 @@
               "RelativeToolTip": "SharpHtml\\AlpineAttributes.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAcwHkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-17T00:32:41.39Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-17T00:32:41.39Z"
             },
             {
               "$type": "Document",
@@ -1544,7 +1540,7 @@
               "RelativeDocumentMoniker": "SharpHtml\\HtmxAttributes.cs",
               "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\HtmxAttributes.cs",
               "RelativeToolTip": "SharpHtml\\HtmxAttributes.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAkwFMAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAkwE4AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-17T00:35:17.507Z",
               "EditorCaption": ""
