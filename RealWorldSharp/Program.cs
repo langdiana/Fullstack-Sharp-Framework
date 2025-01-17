@@ -1,6 +1,7 @@
 using RealWorldSharp.Data;
 using Microsoft.EntityFrameworkCore;
 using RealWorldSharp.Repos;
+using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 {
@@ -42,7 +43,15 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.UseHttpsRedirection();
-app.UseStaticFiles();
+//app.UseStaticFiles();
+
+app.UseFileServer(new FileServerOptions
+{
+	FileProvider = new PhysicalFileProvider(
+			   Path.Combine(Directory.GetCurrentDirectory(), "wwroot")),
+	RequestPath = "/wwroot",
+	EnableDefaultFiles = true
+});
 
 app.UseCors();
 app.UseAuth();
