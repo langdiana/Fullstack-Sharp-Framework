@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "F3YhNbrmXN4=",
+  "success": true,
+  "projectFilePath": "C:\\TFSProjects_BV\\RealWorldSharp\\HtmlConvert\\HtmlConverter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fnecula\\.nuget\\packages\\htmlagilitypack\\1.11.70\\htmlagilitypack.1.11.70.nupkg.sha512"
+  ],
+  "logs": []
+}

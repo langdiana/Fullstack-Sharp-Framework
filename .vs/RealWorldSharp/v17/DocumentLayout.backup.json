@@ -1,0 +1,1557 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\TFSProjects_BV\\RealWorldSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|c:\\tfsprojects_bv\\realworldsharp\\sharphtml\\htmxattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|solutionrelative:sharphtml\\htmxattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|c:\\tfsprojects_bv\\realworldsharp\\sharphtml\\alpineattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|solutionrelative:sharphtml\\alpineattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|c:\\tfsprojects_bv\\realworldsharp\\sharphtml\\htmlattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|solutionrelative:sharphtml\\htmlattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3D4047-3DB8-42CB-B4F2-BE3E2C1D5962}|RealWorldSharp.Test\\RealWorldSharp.Test.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp.test\\unittest\\commandhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3D4047-3DB8-42CB-B4F2-BE3E2C1D5962}|RealWorldSharp.Test\\RealWorldSharp.Test.csproj|solutionrelative:realworldsharp.test\\unittest\\commandhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\followhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\followhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\services\\endpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\services\\endpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\services\\realworldservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\services\\realworldservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\postregisterhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\postregisterhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\base\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\base\\commandbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3D4047-3DB8-42CB-B4F2-BE3E2C1D5962}|RealWorldSharp.Test\\RealWorldSharp.Test.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp.test\\testutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3D4047-3DB8-42CB-B4F2-BE3E2C1D5962}|RealWorldSharp.Test\\RealWorldSharp.Test.csproj|solutionrelative:realworldsharp.test\\testutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\pages\\articlepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\pages\\articlepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\pages\\editorpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\pages\\editorpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\postcommenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\postcommenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\entities\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|c:\\tfsprojects_bv\\realworldsharp\\sharphtml\\jsbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|solutionrelative:sharphtml\\jsbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\pages\\settingspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\pages\\settingspage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\pages\\registerpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\pages\\registerpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\pages\\profilepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\pages\\profilepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\pages\\loginpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\pages\\homepage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\pages\\errorpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\pages\\errorpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\components\\articlelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\components\\articlelist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\components\\favoritecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\components\\favoritecounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\entities\\tag.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{787D3BA7-DB6C-4704-B89C-8D91A4392442}|Lorem.NET\\Lorem.NET.csproj|C:\\TFSProjects_BV\\RealWorldSharp\\lorem.net\\generate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{787D3BA7-DB6C-4704-B89C-8D91A4392442}|Lorem.NET\\Lorem.NET.csproj|solutionrelative:lorem.net\\generate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\entities\\article.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\repos\\realworldrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\repos\\realworldrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\customattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\customattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\routes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\routes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\commandhandlerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\commandhandlerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\components\\followcounterprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\components\\followcounterprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\components\\followcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\components\\followcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\components\\favoritecounterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\components\\favoritecounterview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\headerauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\headerauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\models\\pagerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\models\\pagerinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\footer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\footer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\models\\articlefavoritemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\models\\articlefavoritemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\appbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\appbody.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\base\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\base\\icommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\postsettingshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\postsettingshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\loginhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\models\\articlemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\models\\articlemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\uibuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\uibuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\entities\\userfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\entities\\userfollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3D4047-3DB8-42CB-B4F2-BE3E2C1D5962}|RealWorldSharp.Test\\RealWorldSharp.Test.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp.test\\pagetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3D4047-3DB8-42CB-B4F2-BE3E2C1D5962}|RealWorldSharp.Test\\RealWorldSharp.Test.csproj|solutionrelative:realworldsharp.test\\pagetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|c:\\tfsprojects_bv\\realworldsharp\\sharphtml\\inlinehtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|solutionrelative:sharphtml\\inlinehtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|c:\\tfsprojects_bv\\realworldsharp\\sharphtml\\html.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|solutionrelative:sharphtml\\html.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|c:\\tfsprojects_bv\\realworldsharp\\sharphtml\\blockhtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|solutionrelative:sharphtml\\blockhtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|c:\\tfsprojects_bv\\realworldsharp\\sharphtml\\htmlelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|solutionrelative:sharphtml\\htmlelement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\apphead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\apphead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\customhtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\customhtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\getfeedhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\getfeedhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\base\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\base\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\gethomepagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\gethomepagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\base\\repositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\postarticlehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\postarticlehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\followprofilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\followprofilehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\logouthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\logouthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\getregisterpagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\getregisterpagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\getprofilepagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\getprofilepagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\getprofilepagerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\getprofilepagerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D3D4047-3DB8-42CB-B4F2-BE3E2C1D5962}|RealWorldSharp.Test\\RealWorldSharp.Test.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp.test\\integrationtest\\commandhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D3D4047-3DB8-42CB-B4F2-BE3E2C1D5962}|RealWorldSharp.Test\\RealWorldSharp.Test.csproj|solutionrelative:realworldsharp.test\\integrationtest\\commandhandlertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\deletearticlehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\deletearticlehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commands\\realworldcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commands\\realworldcommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\interfaces\\iuibuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\interfaces\\iuibuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\getarticlepagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\getarticlepagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75D1F95B-FEC5-4F39-B7FF-C8B88F19A73A}|HtmlConvert\\HtmlConverter.csproj|c:\\tfsprojects_bv\\realworldsharp\\htmlconvert\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75D1F95B-FEC5-4F39-B7FF-C8B88F19A73A}|HtmlConvert\\HtmlConverter.csproj|solutionrelative:htmlconvert\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\favoritehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\favoritehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\getsettingspagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\getsettingspagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\models\\registermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\ui\\headerunauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\ui\\headerunauth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\gethomepagerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\gethomepagerhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\getloginpagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\getloginpagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\deletecommenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\deletecommenthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\realworldcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\realworldcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\models\\profilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\models\\profilemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\entities\\articlefavorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\entities\\articlefavorite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\commandhandlers\\geteditorpagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\commandhandlers\\geteditorpagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\interfaces\\irealworldrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\interfaces\\irealworldrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\data\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\data\\models\\homemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\interfaces\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|c:\\tfsprojects_bv\\realworldsharp\\sharphtml\\jshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA388C-9115-4034-B508-0AEBA1271736}|SharpHtml\\SharpHtml.csproj|solutionrelative:sharphtml\\jshelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|c:\\tfsprojects_bv\\realworldsharp\\realworldsharp\\enums\\feedtypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4385DB4F-346A-4417-875E-C331555BEB45}|RealWorldSharp\\RealWorldSharp.csproj|solutionrelative:realworldsharp\\enums\\feedtypeenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 106,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "Html.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\Html.cs",
+              "RelativeDocumentMoniker": "SharpHtml\\Html.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\Html.cs",
+              "RelativeToolTip": "SharpHtml\\Html.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T21:36:07.703Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "BlockHtml.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\BlockHtml.cs",
+              "RelativeDocumentMoniker": "SharpHtml\\BlockHtml.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\BlockHtml.cs",
+              "RelativeToolTip": "SharpHtml\\BlockHtml.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADgv1IAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T22:18:29.123Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "InlineHtml.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\InlineHtml.cs",
+              "RelativeDocumentMoniker": "SharpHtml\\InlineHtml.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\InlineHtml.cs",
+              "RelativeToolTip": "SharpHtml\\InlineHtml.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAowCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T22:21:36.359Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HtmlAttributes.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\HtmlAttributes.cs",
+              "RelativeDocumentMoniker": "SharpHtml\\HtmlAttributes.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\HtmlAttributes.cs",
+              "RelativeToolTip": "SharpHtml\\HtmlAttributes.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAcwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T21:34:31.284Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "HtmlElement.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\HtmlElement.cs",
+              "RelativeDocumentMoniker": "SharpHtml\\HtmlElement.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\HtmlElement.cs",
+              "RelativeToolTip": "SharpHtml\\HtmlElement.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAmwEMAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T21:36:33.36Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "JSBuilder.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\JSBuilder.cs",
+              "RelativeDocumentMoniker": "SharpHtml\\JSBuilder.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\JSBuilder.cs",
+              "RelativeToolTip": "SharpHtml\\JSBuilder.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T21:36:39.058Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "JSHelper.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\JSHelper.cs",
+              "RelativeDocumentMoniker": "SharpHtml\\JSHelper.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\JSHelper.cs",
+              "RelativeToolTip": "SharpHtml\\JSHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T21:36:44.157Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "MainForm.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\HtmlConvert\\MainForm.cs",
+              "RelativeDocumentMoniker": "HtmlConvert\\MainForm.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\HtmlConvert\\MainForm.cs",
+              "RelativeToolTip": "HtmlConvert\\MainForm.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAiwJMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T00:02:29.515Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "ArticleModel.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\ArticleModel.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\Models\\ArticleModel.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\ArticleModel.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\Models\\ArticleModel.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwB4AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:49:06.817Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Article.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Entities\\Article.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\Entities\\Article.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Entities\\Article.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\Entities\\Article.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:58:13.228Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\Entities\\User.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Entities\\User.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T17:05:40.507Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\Models\\UserModel.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\UserModel.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\Models\\UserModel.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwAcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:55:21.67Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Footer.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Footer.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\Footer.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Footer.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\Footer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T22:13:39.731Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Routes.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Routes.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\Routes.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Routes.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\Routes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T22:45:03.778Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\LoginModel.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T01:44:34.109Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "CustomHtml.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\CustomHtml.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\CustomHtml.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\CustomHtml.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\CustomHtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T03:28:36.981Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "RealWorldContext.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\RealWorldContext.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\RealWorldContext.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\RealWorldContext.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\RealWorldContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T22:21:54.954Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "RepositoryBase.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Base\\RepositoryBase.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Base\\RepositoryBase.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Base\\RepositoryBase.cs",
+              "RelativeToolTip": "RealWorldSharp\\Base\\RepositoryBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T13:08:04.351Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "RegisterModel.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\RegisterModel.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\Models\\RegisterModel.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\RegisterModel.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\Models\\RegisterModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:32:23.145Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CommandBase.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Base\\CommandBase.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Base\\CommandBase.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Base\\CommandBase.cs",
+              "RelativeToolTip": "RealWorldSharp\\Base\\CommandBase.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAvwD8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-23T23:44:25.982Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "GetLoginPageHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetLoginPageHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\GetLoginPageHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetLoginPageHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\GetLoginPageHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:59:32.076Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "IUIBuilder.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Interfaces\\IUIBuilder.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Interfaces\\IUIBuilder.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Interfaces\\IUIBuilder.cs",
+              "RelativeToolTip": "RealWorldSharp\\Interfaces\\IUIBuilder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T16:53:07.373Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "GetSettingsPageHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetSettingsPageHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\GetSettingsPageHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetSettingsPageHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\GetSettingsPageHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:36:09.76Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "ProfileModel.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\ProfileModel.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\Models\\ProfileModel.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\ProfileModel.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\Models\\ProfileModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBOwBAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T02:41:45.6Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "GetRegisterPageHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetRegisterPageHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\GetRegisterPageHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetRegisterPageHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\GetRegisterPageHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:43:26.252Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RegisterPage.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\RegisterPage.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\Pages\\RegisterPage.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\RegisterPage.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\Pages\\RegisterPage.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAYwC0AAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T18:33:47.719Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "HeaderUnauth.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\HeaderUnauth.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\HeaderUnauth.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\HeaderUnauth.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\HeaderUnauth.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T03:50:23.472Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HeaderAuth.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\HeaderAuth.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\HeaderAuth.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\HeaderAuth.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\HeaderAuth.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAowAkAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T01:04:50.531Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Program.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Program.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Program.cs",
+              "RelativeToolTip": "RealWorldSharp\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T21:30:37.879Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "ServiceBase.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Base\\ServiceBase.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Base\\ServiceBase.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Base\\ServiceBase.cs",
+              "RelativeToolTip": "RealWorldSharp\\Base\\ServiceBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T20:20:47.985Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CommandHandlerBase.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\CommandHandlerBase.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\CommandHandlerBase.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\CommandHandlerBase.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\CommandHandlerBase.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAWwBUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T01:36:50.115Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Services\\AuthService.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Services\\AuthService.cs",
+              "RelativeToolTip": "RealWorldSharp\\Services\\AuthService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T18:08:22.581Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ErrorPage.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\ErrorPage.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\Pages\\ErrorPage.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\ErrorPage.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\Pages\\ErrorPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T00:40:26.645Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AppBody.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\AppBody.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\AppBody.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\AppBody.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\AppBody.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T21:51:06.385Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "FeedTypeEnum.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Enums\\FeedTypeEnum.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Enums\\FeedTypeEnum.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Enums\\FeedTypeEnum.cs",
+              "RelativeToolTip": "RealWorldSharp\\Enums\\FeedTypeEnum.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T18:20:43.786Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Tag.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Entities\\Tag.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\Entities\\Tag.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Entities\\Tag.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\Entities\\Tag.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T23:59:39.958Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "SettingsPage.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\SettingsPage.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\Pages\\SettingsPage.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\SettingsPage.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\Pages\\SettingsPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T13:42:06.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "IRealWorldRepo.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Interfaces\\IRealWorldRepo.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Interfaces\\IRealWorldRepo.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Interfaces\\IRealWorldRepo.cs",
+              "RelativeToolTip": "RealWorldSharp\\Interfaces\\IRealWorldRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T22:41:30.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "HomePage.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\HomePage.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\Pages\\HomePage.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\HomePage.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\Pages\\HomePage.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T23:12:48.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ArticleList.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Components\\ArticleList.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\Components\\ArticleList.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Components\\ArticleList.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\Components\\ArticleList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T20:03:04.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginPage.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\LoginPage.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\Pages\\LoginPage.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\LoginPage.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\Pages\\LoginPage.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwCAAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T00:36:46.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "RealWorldRepo.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Repos\\RealWorldRepo.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Repos\\RealWorldRepo.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Repos\\RealWorldRepo.cs",
+              "RelativeToolTip": "RealWorldSharp\\Repos\\RealWorldRepo.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAuwC4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T00:23:43.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ArticlePage.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\ArticlePage.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\Pages\\ArticlePage.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\ArticlePage.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\Pages\\ArticlePage.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAAYwHwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:10:45.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "GetHomePageHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetHomePageHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\GetHomePageHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetHomePageHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\GetHomePageHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:40:30.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "PostSettingsHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\PostSettingsHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\PostSettingsHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\PostSettingsHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\PostSettingsHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T01:41:52.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Utils.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Utils.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\Utils.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Utils.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\Utils.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAAAowEgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T22:30:37.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "HomeModel.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\HomeModel.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\Models\\HomeModel.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\HomeModel.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\Models\\HomeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T14:26:52.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "GetFeedHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetFeedHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\GetFeedHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetFeedHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\GetFeedHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T00:29:46.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProfilePage.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\ProfilePage.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\Pages\\ProfilePage.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\ProfilePage.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\Pages\\ProfilePage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T02:03:28.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "GetArticlePageHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetArticlePageHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\GetArticlePageHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetArticlePageHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\GetArticlePageHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T01:20:12.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditorPage.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\EditorPage.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\Pages\\EditorPage.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Pages\\EditorPage.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\Pages\\EditorPage.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwBkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T22:21:50.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "UIBuilder.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\UIBuilder.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\UIBuilder.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\UIBuilder.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\UIBuilder.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwA4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T23:34:33.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RealWorldService.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Services\\RealWorldService.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Services\\RealWorldService.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Services\\RealWorldService.cs",
+              "RelativeToolTip": "RealWorldSharp\\Services\\RealWorldService.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAiwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T22:08:19.015Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "ArticleFavorite.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Entities\\ArticleFavorite.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\Entities\\ArticleFavorite.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Entities\\ArticleFavorite.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\Entities\\ArticleFavorite.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T21:00:54.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "GetProfilePageHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetProfilePageHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\GetProfilePageHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetProfilePageHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\GetProfilePageHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T13:38:19.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "AppHead.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\AppHead.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\AppHead.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\AppHead.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\AppHead.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAiwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T21:48:44.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CustomAttributes.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\CustomAttributes.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\CustomAttributes.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\CustomAttributes.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\CustomAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T03:24:25.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PostRegisterHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\PostRegisterHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\PostRegisterHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\PostRegisterHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\PostRegisterHandler.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAYwDAAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T20:24:01.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LoginHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\LoginHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\LoginHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\LoginHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\LoginHandler.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:48:30.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "RealWorldCommands.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Commands\\RealWorldCommands.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Commands\\RealWorldCommands.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Commands\\RealWorldCommands.cs",
+              "RelativeToolTip": "RealWorldSharp\\Commands\\RealWorldCommands.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAD4vz8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T00:37:07.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "PostArticleHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\PostArticleHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\PostArticleHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\PostArticleHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\PostArticleHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T02:15:42.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "GetEditorPageHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetEditorPageHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\GetEditorPageHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetEditorPageHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\GetEditorPageHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADgvwgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T22:33:36.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "LogoutHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\LogoutHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\LogoutHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\LogoutHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\LogoutHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:35:39.603Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "FavoriteHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\FavoriteHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\FavoriteHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\FavoriteHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\FavoriteHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAtwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T16:39:23.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ArticleFavoriteModel.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\ArticleFavoriteModel.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\Models\\ArticleFavoriteModel.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\ArticleFavoriteModel.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\Models\\ArticleFavoriteModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T23:11:45.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "UserFollow.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Entities\\UserFollow.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\Entities\\UserFollow.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Entities\\UserFollow.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\Entities\\UserFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T15:31:12.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FollowHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\FollowHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\FollowHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\FollowHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\FollowHandler.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwBYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T18:30:27.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Comment.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Entities\\Comment.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\Entities\\Comment.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Entities\\Comment.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\Entities\\Comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T01:49:12.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PostCommentHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\PostCommentHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\PostCommentHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\PostCommentHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\PostCommentHandler.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAMwAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:00:39.523Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "DeleteCommentHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\DeleteCommentHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\DeleteCommentHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\DeleteCommentHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\DeleteCommentHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T15:06:30.495Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "FollowCounter.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Components\\FollowCounter.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\Components\\FollowCounter.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Components\\FollowCounter.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\Components\\FollowCounter.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAuwB8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T21:42:53.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "FavoriteCounterView.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Components\\FavoriteCounterView.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\Components\\FavoriteCounterView.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Components\\FavoriteCounterView.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\Components\\FavoriteCounterView.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T23:02:17.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FavoriteCounter.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Components\\FavoriteCounter.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\Components\\FavoriteCounter.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Components\\FavoriteCounter.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\Components\\FavoriteCounter.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAiwBsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T02:12:17.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "DeleteArticleHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\DeleteArticleHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\DeleteArticleHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\DeleteArticleHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\DeleteArticleHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T17:15:11.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Endpoints.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Services\\Endpoints.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Services\\Endpoints.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Services\\Endpoints.cs",
+              "RelativeToolTip": "RealWorldSharp\\Services\\Endpoints.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBQAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T23:46:11.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "FollowCounterProfile.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Components\\FollowCounterProfile.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\UI\\Components\\FollowCounterProfile.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\UI\\Components\\FollowCounterProfile.cs",
+              "RelativeToolTip": "RealWorldSharp\\UI\\Components\\FollowCounterProfile.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAuwCAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T14:24:51.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "FollowProfileHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\FollowProfileHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\FollowProfileHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\FollowProfileHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\FollowProfileHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwA8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T20:01:17.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "GetHomePagerHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetHomePagerHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\GetHomePagerHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetHomePagerHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\GetHomePagerHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T01:36:31.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "PageTest.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp.Test\\PageTest.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp.Test\\PageTest.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp.Test\\PageTest.cs",
+              "RelativeToolTip": "RealWorldSharp.Test\\PageTest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T03:43:36.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Interfaces\\IAuthService.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Interfaces\\IAuthService.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Interfaces\\IAuthService.cs",
+              "RelativeToolTip": "RealWorldSharp\\Interfaces\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-24T04:00:33.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PagerInfo.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\PagerInfo.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Data\\Models\\PagerInfo.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Data\\Models\\PagerInfo.cs",
+              "RelativeToolTip": "RealWorldSharp\\Data\\Models\\PagerInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T14:40:28.819Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "GetProfilePagerHandler.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetProfilePagerHandler.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\CommandHandlers\\GetProfilePagerHandler.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\CommandHandlers\\GetProfilePagerHandler.cs",
+              "RelativeToolTip": "RealWorldSharp\\CommandHandlers\\GetProfilePagerHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-26T19:24:39.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CommandHandlerTest.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp.Test\\UnitTest\\CommandHandlerTest.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp.Test\\UnitTest\\CommandHandlerTest.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp.Test\\UnitTest\\CommandHandlerTest.cs",
+              "RelativeToolTip": "RealWorldSharp.Test\\UnitTest\\CommandHandlerTest.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T01:35:46.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TestUtils.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp.Test\\TestUtils.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp.Test\\TestUtils.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp.Test\\TestUtils.cs",
+              "RelativeToolTip": "RealWorldSharp.Test\\TestUtils.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAtwCAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T01:42:38.193Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "CommandHandlerTest.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp.Test\\IntegrationTest\\CommandHandlerTest.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp.Test\\IntegrationTest\\CommandHandlerTest.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp.Test\\IntegrationTest\\CommandHandlerTest.cs",
+              "RelativeToolTip": "RealWorldSharp.Test\\IntegrationTest\\CommandHandlerTest.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAMwCYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-04T20:34:18.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ICommand.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Base\\ICommand.cs",
+              "RelativeDocumentMoniker": "RealWorldSharp\\Base\\ICommand.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\RealWorldSharp\\Base\\ICommand.cs",
+              "RelativeToolTip": "RealWorldSharp\\Base\\ICommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T19:42:24.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Generate.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\Lorem.NET\\Generate.cs",
+              "RelativeDocumentMoniker": "Lorem.NET\\Generate.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\Lorem.NET\\Generate.cs",
+              "RelativeToolTip": "Lorem.NET\\Generate.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA2wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-15T20:16:23.872Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AlpineAttributes.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\AlpineAttributes.cs",
+              "RelativeDocumentMoniker": "SharpHtml\\AlpineAttributes.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\AlpineAttributes.cs",
+              "RelativeToolTip": "SharpHtml\\AlpineAttributes.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAcwHkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T00:32:41.39Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HtmxAttributes.cs",
+              "DocumentMoniker": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\HtmxAttributes.cs",
+              "RelativeDocumentMoniker": "SharpHtml\\HtmxAttributes.cs",
+              "ToolTip": "C:\\TFSProjects_BV\\RealWorldSharp\\SharpHtml\\HtmxAttributes.cs",
+              "RelativeToolTip": "SharpHtml\\HtmxAttributes.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAkwFMAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T00:35:17.507Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

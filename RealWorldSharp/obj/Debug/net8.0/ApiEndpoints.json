@@ -1,0 +1,548 @@
+[
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_12",
+    "RelativePath": "",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_0",
+    "RelativePath": "article/{slug}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "slug",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_4",
+    "RelativePath": "article/comment",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comment",
+        "Type": "RealWorldSharp.Data.Models.PostCommentModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_5",
+    "RelativePath": "article/comment/delete",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comment",
+        "Type": "RealWorldSharp.Data.Models.DeleteCommentModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_6",
+    "RelativePath": "article/delete/{articleId}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "articleId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_1",
+    "RelativePath": "article/fav",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "favModel",
+        "Type": "RealWorldSharp.Data.Models.ArticleFavoriteModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_3",
+    "RelativePath": "article/follow",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "follow",
+        "Type": "RealWorldSharp.Data.Models.FollowUserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_7",
+    "RelativePath": "article/pager",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pager",
+        "Type": "RealWorldSharp.Data.Models.HomePagerModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_2",
+    "RelativePath": "article/view/fav",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "favModel",
+        "Type": "RealWorldSharp.Data.Models.ArticleFavoriteModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_9",
+    "RelativePath": "editor/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_11",
+    "RelativePath": "editor/",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "article",
+        "Type": "RealWorldSharp.Data.Models.ArticleModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_10",
+    "RelativePath": "editor/{slug}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "slug",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_14",
+    "RelativePath": "globalfeed",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_16",
+    "RelativePath": "login",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_17",
+    "RelativePath": "login",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "RealWorldSharp.Data.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_18",
+    "RelativePath": "logout",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_19",
+    "RelativePath": "profile/{username}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_21",
+    "RelativePath": "profile/{username}/favorited",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_20",
+    "RelativePath": "profile/{username}/myarticles",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_22",
+    "RelativePath": "profile/follow",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "follow",
+        "Type": "RealWorldSharp.Data.Models.FollowUserProfileModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_8",
+    "RelativePath": "profile/pager",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pager",
+        "Type": "RealWorldSharp.Data.Models.ProfilePagerModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_23",
+    "RelativePath": "register",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_24",
+    "RelativePath": "register",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "register",
+        "Type": "RealWorldSharp.Data.Models.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_25",
+    "RelativePath": "settings",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_26",
+    "RelativePath": "settings",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "RealWorldSharp.Data.Models.UserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_15",
+    "RelativePath": "tagfeed{tag}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tag",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "RealWorldSharp.Services.Endpoints\u002B\u003C\u003Ec",
+    "Method": "\u003CMapEndpoints\u003Eb__0_13",
+    "RelativePath": "yourfeed",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

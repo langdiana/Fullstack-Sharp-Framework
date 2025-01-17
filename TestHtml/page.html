@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+
+	<script src = "https://unpkg.com/htmx.org@2.0.3" integrity="sha384-0895/pl2MU10Hqc6jd4RvrthNlDiE9U1tWmX7WRESftEDRosgxNsQG/Ze9YMRzHq" crossorigin="anonymous"></script>
+	<script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+	<script>
+
+(function() {
+  let api
+  htmx.defineExtension('hx-noformdata', {
+    init: function(apiRef) {
+      api = apiRef
+    },
+
+    onEvent: function(name, evt) {
+      if (name === 'htmx:configRequest') {
+        evt.detail.headers['Content-Type'] = 'application/json'
+      }
+    },
+
+    encodeParameters: function(xhr, parameters, elt) {
+      xhr.overrideMimeType('text/json')
+
+      const vals = api.getExpressionVars(elt)
+      return (JSON.stringify(vals))
+    }
+  })
+})()
+</script>
+	<script>
+        document.addEventListener('htmx:beforeHistorySave', (evt) => {
+            document.querySelectorAll('[x-for]').forEach((item) => {
+                item._x_lookup && Object.values(item._x_lookup).forEach((el) => el.remove())
+            })
+            document.querySelectorAll('[x-if]').forEach((item) => {
+                item._x_currentIfEl && item._x_currentIfEl.remove()
+            })
+        })
+</script>
+
+	<meta charset="utf-8" />
+	<title>Conduit</title>
+	<link href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web:700|Source+Serif+Pro:400,700|Merriweather+Sans:400,700|Source+Sans+Pro:400,300,600,700,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+
+	<!-- Import the custom Bootstrap 4 theme from our hosted CDN -->
+	<link rel = "stylesheet" href="./main.css" />
+  
+
+</head>
+<body>
+    
+<button  class="btn btn-outline-primary btn-sm pull-xs-right" id="favcounter5" hx-post="/article/fav" hx-ext="hx-noformdata" hx-swap="outerHTML" hx-target="#favcounter5" hx-vals='{"ArticleId":5}' > 
+<i  class="ion-heart"> 1
+</i>
+
+</button>
+
+</body>
+</html>
