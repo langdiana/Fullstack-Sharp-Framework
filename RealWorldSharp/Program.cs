@@ -43,8 +43,9 @@ using (var scope = app.Services.CreateScope())
 }
 
 app.UseHttpsRedirection();
-//app.UseStaticFiles();
+app.UseStaticFiles();
 
+/*
 app.UseFileServer(new FileServerOptions
 {
 	FileProvider = new PhysicalFileProvider(
@@ -52,6 +53,7 @@ app.UseFileServer(new FileServerOptions
 	RequestPath = "/wwroot",
 	EnableDefaultFiles = true
 });
+*/
 
 app.UseCors();
 app.UseAuth();
