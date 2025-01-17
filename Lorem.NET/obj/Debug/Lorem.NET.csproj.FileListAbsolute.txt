@@ -1,6 +1,0 @@
-C:\TFSProjects_BV\RealWorldSharp\Lorem.NET\bin\Debug\LoremNET.dll
-C:\TFSProjects_BV\RealWorldSharp\Lorem.NET\bin\Debug\LoremNET.pdb
-C:\TFSProjects_BV\RealWorldSharp\Lorem.NET\obj\Debug\Lorem.NET.csproj.AssemblyReference.cache
-C:\TFSProjects_BV\RealWorldSharp\Lorem.NET\obj\Debug\Lorem.NET.csproj.CoreCompileInputs.cache
-C:\TFSProjects_BV\RealWorldSharp\Lorem.NET\obj\Debug\LoremNET.dll
-C:\TFSProjects_BV\RealWorldSharp\Lorem.NET\obj\Debug\LoremNET.pdb
