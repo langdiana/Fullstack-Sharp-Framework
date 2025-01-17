@@ -2,22 +2,10 @@
 
 public class AppHead
 {
-	public HtmlElement Build1()
-	{
-		var root = body();
-		root.Head = $@"
-	<script src = ""https://unpkg.com/htmx.org@2.0.3"" integrity=""sha384-0895/pl2MU10Hqc6jd4RvrthNlDiE9U1tWmX7WRESftEDRosgxNsQG/Ze9YMRzHq"" crossorigin=""anonymous""></script>
-	<script defer src=""https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js""></script>
- 
-";
-
-
-		return root;
-	}
 
 	public HtmlElement Build()
 	{
-		var noFormScript = @"
+		var noFormDataExt = @"
 
 (function() {
   let api
@@ -42,17 +30,8 @@ public class AppHead
 })()
 ";
 
-		var noCacheScript = @"
-(function () {
-    window.onpageshow = function(event) {
-        if (event.persisted) {
-            window.location.reload();
-        }
-    };
-})();
-";
 
-		var hmxHistory = @"
+		var cleanAlpine = @"
         document.addEventListener('htmx:beforeHistorySave', (evt) => {
             document.querySelectorAll('[x-for]').forEach((item) => {
                 item._x_lookup && Object.values(item._x_lookup).forEach((el) => el.remove())
@@ -68,8 +47,8 @@ public class AppHead
 
 	<script src = ""https://unpkg.com/htmx.org@2.0.3"" integrity=""sha384-0895/pl2MU10Hqc6jd4RvrthNlDiE9U1tWmX7WRESftEDRosgxNsQG/Ze9YMRzHq"" crossorigin=""anonymous""></script>
 	<script defer src=""https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js""></script>
-	<script>{noFormScript}</script>
-	<script>{hmxHistory}</script>
+	<script>{noFormDataExt}</script>
+	<script>{cleanAlpine}</script>
 
 	<meta charset=""utf-8"" />
 	<title>Conduit</title>
@@ -84,9 +63,5 @@ public class AppHead
 
 		return root;
 	}
-
-	//	<script src = ""https://unpkg.com/htmx-ext-json-enc@2.0.1/json-enc.js""></script>
-	//<link rel = ""stylesheet"" href=""/main.css"" />
-	//<link rel = ""stylesheet"" href= 'file:///c:/TFSProjects_BV/RealWorldSharp/RealWorldSharp/StaticFiles/main.css' />
 
 }

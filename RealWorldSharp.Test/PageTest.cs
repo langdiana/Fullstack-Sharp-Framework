@@ -44,7 +44,7 @@ namespace RealWorldSharp.Test
 		void ShowHtml(IResult result)
 		{
 			var html = ((Microsoft.AspNetCore.Http.HttpResults.ContentHttpResult)result).ResponseContent;
-			var fileName = @"c:\TFSProjects_BV\RealWorldSharp\TestHtml\page.html";
+			var fileName = @"c:\temp\RealWorldSharp\TestHtml\page.html"; // make sure you copy css files (if any) in this folder
 			File.WriteAllText(fileName, html);
 			RunBrowser(fileName);
 		}
