@@ -9,6 +9,7 @@ using RealWorldSharp.Repos;
 using RealWorldSharp.UI;
 using SharpHtml;
 using System.Diagnostics;
+using System.Web;
 using static RealWorldSharp.Test.TestUtils;
 
 namespace RealWorldSharp.Test

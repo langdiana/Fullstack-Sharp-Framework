@@ -24,6 +24,7 @@ public class PostArticleHandler : CommandHandlerBase<PostArticleCommand>
 
 		article.UserId = cmd.UserId.GetValueOrDefault();
 		article.Slug = Guid.NewGuid().ToString();
+		article.CreatedAt = DateTime.UtcNow;
 		await Repo.Save(article);
 
 		var page = await GetArticlePage(article.ArticleId);
