@@ -8,9 +8,9 @@ namespace SharpHtml;
 
 public static partial class Html
 {
-	public static HtmlElement button(HtmlAttributes? attrs = null, params HtmlElement[] elements)
+	public static InlineHtmlElement button(HtmlAttributes? attrs = null, params InlineHtmlElement[] elements)
 	{
-		var elem = new HtmlElement("button", attrs, elements);
+		var elem = new InlineHtmlElement("button", attrs, elements);
 		return elem;
 	}
 
@@ -20,9 +20,9 @@ public static partial class Html
 		return elem;
 	}
 
-	public static HtmlElement input(HtmlAttributes? attrs = null)
+	public static InlineHtmlElement input(HtmlAttributes? attrs = null)
 	{
-		var elem = new HtmlElement("input", attrs);
+		var elem = new InlineHtmlElement("input", attrs);
 		return elem;
 	}
 
@@ -38,15 +38,15 @@ public static partial class Html
 		return elem;
 	}
 
-	public static HtmlElement label(HtmlAttributes? attrs = null, params HtmlElement[] elements)
+	public static InlineHtmlElement label(HtmlAttributes? attrs = null, params InlineHtmlElement[] elements)
 	{
-		var elem = new HtmlElement("label", attrs, elements);
+		var elem = new InlineHtmlElement("label", attrs, elements);
 		return elem;
 	}
 
-	public static HtmlElement textarea(HtmlAttributes? attrs = null, params HtmlElement[] elements)
+	public static InlineHtmlElement textarea(HtmlAttributes? attrs = null, params InlineHtmlElement[] elements)
 	{
-		var elem = new HtmlElement("textarea ", attrs, elements);
+		var elem = new InlineHtmlElement("textarea ", attrs, elements);
 		return elem;
 	}
 
