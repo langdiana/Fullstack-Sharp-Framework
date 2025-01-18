@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Lorem2\Lorem.csproj" />
+    <ProjectReference Include="..\Lorem\Lorem.csproj" />
     <ProjectReference Include="..\SharpHtml\SharpHtml.csproj" />
   </ItemGroup>
 

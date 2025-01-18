@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HtmlConverter", "HtmlConver
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RealWorldSharp.Test", "RealWorldSharp.Test\RealWorldSharp.Test.csproj", "{0D3D4047-3DB8-42CB-B4F2-BE3E2C1D5962}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lorem", "Lorem2\Lorem.csproj", "{8ED0A133-A385-4209-9B33-583C595BD84B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lorem", "Lorem\Lorem.csproj", "{8ED0A133-A385-4209-9B33-583C595BD84B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
