@@ -1,4 +1,6 @@
-﻿namespace RealWorldSharp.Data.Models;
+﻿using System.Web;
+
+namespace RealWorldSharp.Data.Models;
 
 public class ArticleModel
 {
@@ -11,6 +13,8 @@ public class ArticleModel
 	public string Description { get; set; } = null!;
 
 	public string Body { get; set; } = null!;
+
+	public string HtmlBody => HttpUtility.HtmlEncode(Body);
 
 	public UserModel Author { get; set; } = null!;
 

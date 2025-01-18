@@ -11,10 +11,12 @@ var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 
 builder.Services
 	.AddCors(policy => policy
-	.AddDefaultPolicy(builder => builder
-	.AllowAnyOrigin()
-	.AllowAnyHeader()
-	.AllowAnyMethod()));
+		.AddDefaultPolicy(builder => builder
+			.AllowAnyOrigin()
+			.AllowAnyHeader()
+			.AllowAnyMethod()
+		)
+	);
 
 builder.AddAuth();
 
@@ -44,16 +46,6 @@ using (var scope = app.Services.CreateScope())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
-/*
-app.UseFileServer(new FileServerOptions
-{
-	FileProvider = new PhysicalFileProvider(
-			   Path.Combine(Directory.GetCurrentDirectory(), "wwroot")),
-	RequestPath = "/wwroot",
-	EnableDefaultFiles = true
-});
-*/
 
 app.UseCors();
 app.UseAuth();

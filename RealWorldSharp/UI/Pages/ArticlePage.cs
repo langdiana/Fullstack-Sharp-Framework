@@ -47,7 +47,7 @@ public static partial class Pages
 			div(new() { className = "container page" },
 				div(new() { className = "row article-content" },
 					div(new() { className = "col-md-12" },
-						p(new() { xHtml = js.Field(x => x.Body) }
+						p(new() { xHtml = js.Field(x => x.HtmlBody) }
 						),
 						ArticleTags(article.Tags)
 					)
