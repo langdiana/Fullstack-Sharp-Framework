@@ -37,7 +37,7 @@ builder.Services.AddScoped<RealWorldService>();
 
 var app = builder.Build();
 
-// for demo
+// for RealWorld demo
 using (var scope = app.Services.CreateScope())
 {
 	using var context = scope.ServiceProvider.GetService<RealWorldContext>();
