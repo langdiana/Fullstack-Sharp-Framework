@@ -1,7 +1,6 @@
 using RealWorldSharp.Data;
 using Microsoft.EntityFrameworkCore;
 using RealWorldSharp.Repos;
-using Microsoft.Extensions.FileProviders;
 
 var builder = WebApplication.CreateBuilder(new WebApplicationOptions
 {
