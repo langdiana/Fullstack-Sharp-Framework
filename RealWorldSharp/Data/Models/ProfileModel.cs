@@ -1,7 +1,4 @@
-﻿using Newtonsoft.Json;
-using RealWorldSharp.Services;
-
-namespace RealWorldSharp.Data.Models;
+﻿namespace RealWorldSharp.Data.Models;
 
 public class ProfileModel
 {

@@ -1,7 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Mvc.RazorPages;
-
-namespace RealWorldSharp.CommandHandlers;
+﻿namespace RealWorldSharp.CommandHandlers;
 
 public class PostRegisterHandler : CommandHandlerBase<PostRegisterCommand>
 {

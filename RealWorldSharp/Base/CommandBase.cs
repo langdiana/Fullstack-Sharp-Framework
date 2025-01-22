@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-
-namespace RealWorldSharp.Base;
+﻿namespace RealWorldSharp.Base;
 
 public class CommandBase: ICommand
 {

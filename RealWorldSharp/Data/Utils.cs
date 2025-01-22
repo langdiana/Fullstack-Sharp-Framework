@@ -1,7 +1,4 @@
-﻿using Lorem;
-using RealWorldSharp.Data.Entities;
-
-namespace RealWorldSharp.Data;
+﻿namespace RealWorldSharp.Data;
 
 public class Utils
 {

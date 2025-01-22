@@ -1,6 +1,4 @@
-﻿using RealWorldSharp.Data.Models;
-
-namespace RealWorldSharp.CommandHandlers;
+﻿namespace RealWorldSharp.CommandHandlers;
 
 public class PostSettingsHandler : CommandHandlerBase<PostSettingsCommand>
 {

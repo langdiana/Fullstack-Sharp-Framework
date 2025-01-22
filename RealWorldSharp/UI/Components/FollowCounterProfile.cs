@@ -1,6 +1,4 @@
-﻿using RealWorldSharp.Data.Entities;
-
-namespace RealWorldSharp.UI.Components;
+﻿namespace RealWorldSharp.UI.Components;
 
 public static partial class Compo
 {

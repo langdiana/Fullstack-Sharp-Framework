@@ -1,7 +1,4 @@
-﻿using RealWorldSharp.Base;
-using RealWorldSharp.Data.Models;
-
-namespace RealWorldSharp.Interfaces;
+﻿namespace RealWorldSharp.Interfaces;
 
 public interface IRealWorldRepo: IRepositoryBase
 {

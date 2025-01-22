@@ -1,8 +1,5 @@
 using HtmlAgilityPack;
-using System;
-using System.CodeDom.Compiler;
 using System.Text;
-using System.Xml.Linq;
 using HtmlDocument = HtmlAgilityPack.HtmlDocument;
 
 namespace HtmlConvert

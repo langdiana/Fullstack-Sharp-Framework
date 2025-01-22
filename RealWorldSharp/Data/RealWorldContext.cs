@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using RealWorldSharp.Data.Entities;
 
 namespace RealWorldSharp.Data;
 

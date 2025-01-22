@@ -1,6 +1,5 @@
 ﻿using HtmlAgilityPack;
 using Microsoft.AspNetCore.Http;
-using Microsoft.EntityFrameworkCore;
 using RealWorldSharp.Commands;
 using RealWorldSharp.Data.Entities;
 using RealWorldSharp.Data.Models;
@@ -8,13 +7,8 @@ using RealWorldSharp.Enums;
 using RealWorldSharp.Interfaces;
 using RealWorldSharp.UI;
 using SharpHtml;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace RealWorldSharp.Test;
 

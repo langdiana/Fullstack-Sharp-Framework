@@ -1,6 +1,4 @@
-﻿using RealWorldSharp.Data.Entities;
-
-namespace RealWorldSharp.Interfaces;
+﻿namespace RealWorldSharp.Interfaces;
 
 public interface IAuthService
 {

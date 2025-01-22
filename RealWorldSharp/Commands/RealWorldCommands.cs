@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-
-namespace RealWorldSharp.Commands;
+﻿namespace RealWorldSharp.Commands;
 
 public class GetHomePageCommand: CommandBase
 {

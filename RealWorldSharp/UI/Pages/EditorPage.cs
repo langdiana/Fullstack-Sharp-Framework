@@ -1,6 +1,4 @@
-﻿using RealWorldSharp.Data.Entities;
-
-namespace RealWorldSharp.UI.Pages;
+﻿namespace RealWorldSharp.UI.Pages;
 
 public static partial class Pages
 {

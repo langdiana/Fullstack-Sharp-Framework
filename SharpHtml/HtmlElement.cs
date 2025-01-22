@@ -1,18 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SharpHtml;
+﻿namespace SharpHtml;
 
 public class HtmlElement
 {
 	public HtmlElement(string? tag, HtmlAttributes? attrs, params HtmlElement[] elements)
 	{
 		this.tag = tag;
-
-		//Text = text;
 
 		if (attrs != null)
 			Attributes = attrs;

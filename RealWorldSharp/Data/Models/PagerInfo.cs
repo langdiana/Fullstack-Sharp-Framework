@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-
-namespace RealWorldSharp.Data.Models;
+﻿namespace RealWorldSharp.Data.Models;
 
 public abstract class PagerInfo
 {

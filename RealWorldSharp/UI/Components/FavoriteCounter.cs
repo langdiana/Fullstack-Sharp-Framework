@@ -1,6 +1,4 @@
-﻿using Newtonsoft.Json;
-
-namespace RealWorldSharp.UI.Components;
+﻿namespace RealWorldSharp.UI.Components;
 
 public static partial class Compo
 {

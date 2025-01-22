@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace RealWorldSharp.Data.Models;
+﻿namespace RealWorldSharp.Data.Models;
 
 public class RegisterModel
 {

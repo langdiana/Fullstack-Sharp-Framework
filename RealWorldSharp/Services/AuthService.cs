@@ -1,9 +1,5 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using RealWorldSharp.Data.Entities;
-using RealWorldSharp.Data.Models;
-using RealWorldSharp.Interfaces;
-using System.Security.Claims;
 
 namespace RealWorldSharp.Services;
 

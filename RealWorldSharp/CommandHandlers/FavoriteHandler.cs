@@ -1,6 +1,4 @@
-﻿using RealWorldSharp.Data.Entities;
-
-namespace RealWorldSharp.CommandHandlers;
+﻿namespace RealWorldSharp.CommandHandlers;
 
 public class FavoriteHandler : CommandHandlerBase<FavoriteCommand>
 {
