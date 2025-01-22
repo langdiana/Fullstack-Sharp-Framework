@@ -124,7 +124,7 @@ namespace HtmlConvert
 			string result = "";
 			foreach (var attrib in node.Attributes)
 			{
-				var attrName = GetAttrib(attrib.Name); // attrib.Name == "class" ? "className" : attrib.Name;
+				var attrName = GetAttrib(attrib.Name);
 				string comma = string.IsNullOrEmpty(result) ? "" : ",";
 				result = $"{result}{comma} {attrName} = \"{attrib.Value}\"";
 			}

@@ -16,8 +16,8 @@ public class LoginHandler : CommandHandlerBase<LoginCommand>
 			return;
 		}
 
-		//var user = await Repo.FirstOrDefault<User>(x => x.Email == cmd.Login.Email);
-		var user = await Repo.FirstOrDefault<User>(x => x.Email == x.Email);
+		var user = await Repo.FirstOrDefault<User>(x => x.Email == cmd.Login.Email);
+		//var user = await Repo.FirstOrDefault<User>(x => x.Email == x.Email);
 		if (user == null)
 		{
 			var page = LoginPage(cmd.Login, false);
