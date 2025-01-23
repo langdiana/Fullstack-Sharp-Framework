@@ -1,5 +1,5 @@
 
-## 1. Coding with HtmlSharp. 
+## 1. Coding with HtmlSharp 
 
 The first step in creating a web application is designing and creating web pages. This is done using HtmlSharp library. 
 The code looks very much like real HTML, but it’s using C# functions and classes instead. Every HTML element has a corresponding function which ultimately generates the exact HTML tag that is targeting.
@@ -52,7 +52,7 @@ Using HtmlAttributes has some big advantages:
 
 If the element has no attributes, you must pass “null” in its place. Alternatively you can use the special null attribute : “_”, which is almost exclusively used in RealWorld instead of null 
 
-## 2. Adding data.
+## 2. Adding data
 
 Data is added to pages using attributes. For this, AlpineJS library is used, specifically the attributes coming with it.  
 The attribute x-data (xData in c#) is made precisely for this: <https://alpinejs.dev/directives/data>  
@@ -109,7 +109,7 @@ JSBuilder has functionality to change the default variable (“item”) to somet
 However not all data is processed using x-data. Only data that is handled and changed by the client is using x-data (we call this client data). Ex: Login credentials, article content etc.
 Some data is not handled by client, is actually determined by the context and is rendered by server (server data). Ex: Favorite count, Follow count. The difference is very important because client data (x-data) and server data are processed differently.
 
-## 3. Saving data.
+## 3. Saving data
 
 After data is updated, it’s time to send it to server for save. This is done using a Button action and HTMX attributes or a combination of HTMX and AlpineJs attributes. (But note that any HTML element can be used, it's just that Buttons are the most familiar).  
 First of all, data must be some sort of serialized JSON. That means that server data must be a class, even if it has only one member. Client data (x-data) is already JSON but must be handled is a specific way, as seen below.  
@@ -133,13 +133,14 @@ So the above attribute would look like this:
 
 RealWorld app combines some of these attributes which always appear in the same order and have same values into custom (or syntetic) attributes, reducing repetitions and enhancing clarity.
 
-VERY IMPORTANT
+# VERY IMPORTANT
+
 Using hx-vals is not the default way of handling data for HTMX. It uses form data instead. In order for hx-vals to work, a custom extension (<https://htmx.org/extensions/>) called “hx-noformdata” was added in the Head of the HTML document. Every time hx-vals is used, an additional attribute must be set (<https://htmx.org/attributes/hx-ext/>): 
 hx-ext= "hx-noformdata";
 However because they are always used together, the framework automatically add this attribute whenever hx-post is used so you don’t have to add it yourself. You still have to use the extension present in HTML Head
 
 
-## 4.Navigation and page swap.
+## 4.Navigation and page swap
 
 FSS is an SPA building framework. The server is sending only pieces of HTML, not full pages, to the browser, which will replace the existing HTML with the new ones.
 For example, RealWorld app has a header, a footer and some content (called main content) in between. Most navigation inside the site involves only changing the main content, while header and footer remain unchanged. 
@@ -185,22 +186,22 @@ Sometimes more than one piece of HTML must be swapped. In this case, the server 
 In RealWorld there is function called RenderPages in UIBuilder.cs which does exactly this.
 Only one piece is swapped normally (using hx-target). The rest use a mechanism called Out of Band swap (https://htmx.org/attributes/hx-swap-oob/) and must have the attribute hx-swap-oob = “true” (hxOob = true in HtmlSharp). Look for example in FollowHandler.cs to see how is done. 
 
-## 5. Backend.
+## 5. Backend
 
 The backend is using Minimal API , EF Core and a Command - CommandHandler architecture. 
 It has the following components:
 -	Endpoints:
-o	Handles the requests from web page MinimalAPI endpoints: MapGet, MapPost etc. 
-o	Injects (actually uses the injected) main service and request parameters; 
+ -	Handles the requests from web page MinimalAPI endpoints: MapGet, MapPost etc. 
+ -	Injects (actually uses the injected) main service and request parameters; 
 -	RealWorldService - the main service:
-o	Injects or creates and initializes all the other components used by the backend
-o	Sets up the Htmx flag
-o	Creates the repository
-o	Creates the authentication service
-o	Sets up the current user
-o	Creates and initializes the Commands, which keep the request parameters, the html produced as a result of the request and additional data.
-o	Creates, initializes and runs the CommandHandlers 
-o	Renders a web page/fragment which is returned to the browser by the ASP NET system
+ -	Injects or creates and initializes all the other components used by the backend
+ -	Sets up the Htmx flag
+ -	Creates the repository
+ -	Creates the authentication service
+ -	Sets up the current user
+ -	Creates and initializes the Commands, which keep the request parameters, the html produced as a result of the request and additional data.
+ -	Creates, initializes and runs the CommandHandlers 
+ -	Renders a web page/fragment which is returned to the browser by the ASP NET system
 -	AuthService: authentication service
 -	UIBuilder: assembles various parts of the page and renders the final HTML sent to the browser
 -	Repository: data storage faced service. It’s using EFCore but it can be easily changed to other ORM
@@ -213,6 +214,7 @@ All tests are done against CommandHandlers. There are 3 types of testing:
 
 
 ## 6. Summary
+
 Putting all together
 
 The process of creating a web app, page by page, is like this:
