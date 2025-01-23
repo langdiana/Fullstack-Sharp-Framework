@@ -7,22 +7,26 @@ public class LoginHandler : CommandHandlerBase<LoginCommand>
 
 	public override async Task Execute(LoginCommand cmd)
 	{
+
+		string? errorMessage = null;
+
 		// check password
-		if (cmd.Login.Password == null || cmd.Login.Password.Length < 3)
+		if (string.IsNullOrWhiteSpace(cmd.Login.Email) || cmd.Login.Password == null || cmd.Login.Password.Length < 3)
 		{
-			var page = LoginPage(cmd.Login, false);
+			errorMessage = "Invalid credentials";
+			var page = LoginPage(cmd.Login, false, errorMessage);
 			cmd.Result = UiBuilder.RenderPage(page);
-			cmd.ErrorMessage = "Invalid credentials";
+			cmd.ErrorMessage = errorMessage;
 			return;
 		}
 
 		var user = await Repo.FirstOrDefault<User>(x => x.Email == cmd.Login.Email);
-		//var user = await Repo.FirstOrDefault<User>(x => x.Email == x.Email);
 		if (user == null)
 		{
-			var page = LoginPage(cmd.Login, false);
+			errorMessage = "User not found";
+			var page = LoginPage(cmd.Login, false, errorMessage);
 			cmd.Result = UiBuilder.RenderPage(page);
-			cmd.ErrorMessage = "User not found";
+			cmd.ErrorMessage = errorMessage;
 			return;
 		}
 

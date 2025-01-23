@@ -2,7 +2,7 @@
 
 public static partial class Pages
 {
-	public static HtmlElement LoginPage(LoginModel login, bool isValid)
+	public static HtmlElement LoginPage(LoginModel login, bool isValid, string? errorMessage)
 	{
 		var js = new JSBuilder<LoginModel>(login);
 		var xdata = js.Build();
@@ -18,7 +18,7 @@ public static partial class Pages
 							a(new() { href = $"{Routes.Register}" }, "Need an account?")
 						),
 						isValid ? Frag() : ul(new() { className = "error-messages" },
-							li(_, "Invalid credentials"
+							li(_, errorMessage ?? ""
 							)
 						),
 						form(new() { hxBoost = "false" },

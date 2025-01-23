@@ -18,7 +18,7 @@ public static partial class Pages
 							img(new() { src = profile.Image, className = "user-img" }),
 							h4(_, profile.Username
 							),
-							p(_, profile.Bio
+							p(_, profile.Bio ?? ""
 							),
 							profile.IsCrtUser ? Frag() : FollowCounterProfile(profile, Targets.FollowCounterProfile.Id, profile.CrtUser != null),
 							!profile.IsCrtUser ? Frag() : button(new() { className = "btn btn-sm btn-outline-secondary action-btn", hxGet = Routes.Settings },

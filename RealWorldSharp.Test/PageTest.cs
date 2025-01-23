@@ -7,6 +7,8 @@ using RealWorldSharp.Data.Entities;
 using RealWorldSharp.Interfaces;
 using RealWorldSharp.Repos;
 using static RealWorldSharp.Test.TestUtils;
+using static SharpHtml.Html;
+using HtmlElement = SharpHtml.HtmlElement;
 
 namespace RealWorldSharp.Test
 {
@@ -73,6 +75,18 @@ namespace RealWorldSharp.Test
 			FavoriteHandler handler = new() { Repo = repo, UiBuilder = uiBuilder, AuthService = authService };
 			await handler.Execute(cmd);
 			ShowHtml(cmd.Result);
+		}
+
+		[TestMethod]
+		public void Test1()
+		{
+			var element =
+				div(new() { className = "some class", id = "ID1" },
+					h1(new() { className = "text-xs-center" }, "Sign in"
+					)
+				);
+
+			var x = element.Render();
 		}
 
 	}

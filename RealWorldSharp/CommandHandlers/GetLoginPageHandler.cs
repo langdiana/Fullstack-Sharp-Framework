@@ -7,7 +7,7 @@ public class GetLoginPageHandler : CommandHandlerBase<GetLoginPageCommand>
 	public override async Task Execute(GetLoginPageCommand cmd)
 	{
 		var login = new LoginModel();
-		var page = LoginPage(login, true);
+		var page = LoginPage(login, true, null);
 		cmd.Result = UiBuilder.RenderPage(page);
 	}
 }
