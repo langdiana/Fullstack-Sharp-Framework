@@ -48,7 +48,7 @@ Ex:
     }
 
 As an alternative to manually coding every element, an utility (called HtmlConvert) is provided that will take a piece of existing HTML and will generate C# code. You can design the pages in your favorite web designer, copy the produced HTML and paste into HtmlConvert and you have now the C# code to continue with the development.
-Actually this is how the pages in RealWorld app were produced: the HTML code was copied from the provided templates and the C# code was generated for me.
+Actually this is how the pages in RealWorldSharp app were produced: the HTML code was copied from the provided templates and the C# code was generated for me.
 
 Using HtmlAttributes has some big advantages:
 -	Type safe HTML attributes
@@ -88,7 +88,7 @@ Ex (note that following examples are not actual code from RealWorld app):
         )
       }
 
-While this is a simple but common usage of data, more complex scenario are possible: use of nested x-data, adding JS functions to x-data, use of x-for attribute to iterate through lists. These can be found in the RealWorld app, either actively used or just presented as proof of concept
+While this is a simple but common usage of data, more complex scenario are possible: use of nested x-data, adding JS functions to x-data, use of x-for attribute to iterate through lists. These can be found in the RealWorldSharp app, either actively used or just presented as proof of concept
 
 ### More about x-data
 
@@ -145,7 +145,7 @@ Using hx-vals is not the default way of handling data for HTMX, which uses form 
 hx-ext= "hx-noformdata";  
 However because they are always used together, the framework automatically add this attribute whenever hx-post is used so you don’t have to add it yourself. 
 
-## 4. Navigation and page swap
+## 4. Navigation and page swapping  
 
 FSS is an SPA building framework. The server is sending only pieces of HTML, not full pages, to the browser, which will replace the existing HTML with the new ones.  
 For example, RealWorld app has a header, a footer and some content (called main content) in between. Most navigation inside the site involves only changing the main content, while header and footer remain unchanged. (However the HTML being swapped may be much smaller, maybe as small as a single button or label)  
@@ -155,7 +155,7 @@ Using the library means setting two attributes of the element that triggers the 
 1)	hx-target (hxTarget) <https://htmx.org/attributes/hx-target/>: set to the ID of the element that must be replaced. However the actual format is: hx-target = #ID, note that the ID must be prefixed with # char
 2)	hx-swap (hxSwap): set to the method used to swap. For details see: <https://htmx.org/attributes/hx-swap/>
 
-While these attributes can be used any time, HTMX has another attribute to simplify things: hx-boost (<https://htmx.org/attributes/hx-boost/>). When this is set on some element, the other two attributes mentioned above don’t have to be used for any nested anchor , they will use the target and swap indicated by the boost set on parent. So for example you can set it at the top of main content element (as is done in RealWorld) and benefit almost everywhere.  
+While these attributes can be used any time, HTMX has another attribute to simplify things: hx-boost (<https://htmx.org/attributes/hx-boost/>). When this is set on some element, the other two attributes mentioned above don’t have to be used for any nested anchor , they will use the target and swap indicated by the boost set on parent. So for example you can set it at the top of main content element (as is done in RealWorldSharp) and benefit almost everywhere.  
 Note though that there is a catch when using hx-boost. If a nested element is a form and the form doesn’t have any anchors or submit buttons, HTMX will signal an error. For this reason, in RealWorld, any element with a form has hx-boost disabled (hx-boost = false). 
 
 Of course, any anchor element usually also needs a href attribute. If the boost mechanism is not used, hx-get attribute (<https://htmx.org/attributes/hx-get/>) must be used together with href, both pointing to same link (Technically when hx-get is used, href is not required, however using it will make the anchor look normal when hover – cursor change, underlink etc)  
