@@ -1,3 +1,8 @@
+## Prerequisites
+
+Fullstack Sharp Framework uses HTMX (<https://htmx.org/>) and AlpineJS(<https://alpinejs.dev/>) libraries.
+For this, the web pages created with the framework must include scripts to install these libraries, usually in the HEAD section of the web page.
+See RealWorldSharp AppHead.cs file for an example.
 
 ## 1. Coding with HtmlSharp 
 
@@ -10,7 +15,7 @@ will generate the `<div>` element.
 
     public static HtmlElement ul(…)
 will generate `<ul>` element and so on
-
+	
 Most functions have two arguments: first one is the attributes of the element (can be null) and the second is a list of nested elements (using params keyword). When rendered, they will generate the element tag, the attributes and all nested elements
 Ex:
 
@@ -180,10 +185,19 @@ or use the synthetic attribute xBindRef:
 
 RealWorld app doesn’t use client links, however there is a proof of concept function called ArticleListAlternate() in file ArticleList.cs which shows how shd be done
 
-
 Sometimes more than one piece of HTML must be swapped. In this case, the server prepares the required pieces and send them together, side-by-side. 
 In RealWorld there is function called RenderPages in UIBuilder.cs which does exactly this.  
 Only one piece is swapped normally (using hx-target). The rest use a mechanism called Out of Band swap (https://htmx.org/attributes/hx-swap-oob/) and must have the attribute hx-swap-oob = “true” (hxOob = true in HtmlSharp). Look for example in FollowHandler.cs to see how is done. 
+
+### IMPORTANT
+
+Becasue this is a SPA, page swapping usually involves only fractions of the full page.
+However a full page must be sent to browser in at least 2 cases:
+1. When the site is first accessed
+2. When an internal link is opened in a new tab/window
+
+To find out when one of the two cases above is happening, HTTP headers must be consulted. If they include the header "HX-Request" (see <https://htmx.org/reference/#request_headers>), you are not in one of these cases. Otherwise, the full page must be sent to browser .
+RealWorldSharp app implements this mechanism in the backend.
 
 ## 5. Backend
 
