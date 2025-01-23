@@ -148,7 +148,7 @@ However because they are always used together, the framework automatically add t
 
 ## 4. Navigation and page swapping  
 
-FSS is an SPA building framework. The server is sending only pieces of HTML, not full pages, to the browser, which will replace the existing HTML with the new ones.  
+FSS is an SPA building framework. The server, most of the time, is sending only pieces of HTML, not full pages, to the browser, which will replace the existing HTML with the new ones.  
 For example, RealWorldSharp app has a header, a footer and some content (called main content) in between. Most navigation inside the site involves only changing the main content, while header and footer remain unchanged. (However the HTML being swapped may be much smaller, maybe as small as a single button or label)  
 Any time an internal link is clicked, only the main content is sent to browser, replacing the existing content. This is called HTML swapping and is accomplished using the HTMX library. 
 For more details of how swapping works, please see this: <https://htmx.org/docs/>  
