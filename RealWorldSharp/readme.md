@@ -231,9 +231,9 @@ All tests are done against CommandHandlers. There are 3 types of testing:
 -	Integration testing: tests the data /repository used by web pages
 
 
-## 6. Summary
+## 6. Putting all together
 
-Putting all together
+All of the above may look a bit complicated a first but in the end it's mostly just a matter of setting some attributes and taking care of some quirks here and there.
 
 The process of creating a web app, page by page, is like this:
 -	Design and implement your page in C# using HtmlSharp
