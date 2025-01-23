@@ -47,7 +47,7 @@ Ex:
         )
     }
 
-As an alternative to manually coding every element, an utility (called HtmlConverter) is provided that will take a piece of existing HTML and will generate C# code. You can design the pages in your favorite web designer, copy the produced HTML and paste into HtmlConvert and you have now the C# code to continue with the development.
+As an alternative to manually coding every element, an utility (called HtmlConverter) is provided that will take a piece of existing HTML and will generate C# code. You can design the pages in your favorite web designer, copy the produced HTML and paste into HtmlConverter and you have now the C# code to continue with the development.
 Actually this is how the pages in RealWorldSharp app were produced: the HTML code was copied from the provided templates and the C# code was generated for me.
 
 Using HtmlAttributes has some big advantages:
@@ -65,7 +65,7 @@ It contains a JavaScript object literal ([JSOL](https://playcode.io/javascript/o
 For a typical HtmlSharp component, this mechanism is totally automatic and wrapped in C#, no JS is required. This is done using a helper class called JSBuilder which converts a C# class into a JSOL and provides type safe access to its members.  
 This is the equivalent of data aware programming in WinForms with the HTML elements as data aware controls and x-data as data source.
 
-Ex (note that following examples are not actual code from RealWorld app):
+Ex (note that following examples are not actual code from RealWorldSharp app):
 
     public static HtmlElement LoginPage(LoginModel login) // login is data passed as argument to this component
     {
@@ -138,7 +138,7 @@ And the value is this JS expression:
 So the above attribute would look like this in HTML:  
 `“:hx-vals= JSON.stringify($data.item)”.`
 
-RealWorld app combines some of these attributes which always appear in the same order and have same values into custom (or syntetic) attributes, reducing repetitions and enhancing clarity.
+RealWorldSharp app combines some of these attributes which always appear in the same order and have same values into custom (or synthetic) attributes, reducing repetitions and enhancing clarity.
 
 ### VERY IMPORTANT
 
@@ -158,9 +158,9 @@ Using the library means setting two attributes of the element that triggers the 
 3)	hx-swap (hxSwap): set to the method used to swap. For details see: <https://htmx.org/attributes/hx-swap/>
 
 While these attributes can be used any time, HTMX has another attribute to simplify things: hx-boost (<https://htmx.org/attributes/hx-boost/>). When this is set on some element, the other two attributes mentioned above don’t have to be used for any nested anchor , they will use the target and swap indicated by the boost set on parent. So for example you can set it at the top of main content element (as is done in RealWorldSharp) and benefit almost everywhere.  
-Note though that there is a catch when using hx-boost. If a nested element is a form and the form doesn’t have any anchors or submit buttons, HTMX will signal an error. For this reason, in RealWorld, any element with a form has hx-boost disabled (hx-boost = false). 
+Note though that there is a catch when using hx-boost. If a nested element is a form and the form doesn’t have any anchors or submit buttons, HTMX will signal an error. For this reason, in RealWorldSharp, any element with a form has hx-boost disabled (hx-boost = false). 
 
-Of course, any anchor element usually also needs a href attribute. If the boost mechanism is not used, hx-get attribute (<https://htmx.org/attributes/hx-get/>) must be used together with href, both pointing to same link (Technically when hx-get is used, href is not required, however using it will make the anchor look normal when hover – cursor change, underlink etc)  
+Of course, any anchor element usually also needs a href attribute. If the boost mechanism is not used, hx-get attribute (<https://htmx.org/attributes/hx-get/>) must be used together with href, both pointing to same link (Technically when hx-get is used, href is not required, however using it will make the anchor look normal when hover – cursor change, underline etc)  
 Links can be fixed (constant) or dynamic which in turn can be: server generated (C# expression but constant at runtime) or client generated (from x-data)  
 Fixed and server links are just regular C# strings.  
 However client links have a special format and need one more attribute:
@@ -185,7 +185,7 @@ or use the synthetic attribute xBindRef:
     
     xBindRef = link
 
-RealWorld app doesn’t use client links, however there is a proof of concept function called ArticleListAlternate() in file ArticleList.cs which shows how shd be done
+RealWorldSharp app doesn’t use client links, however there is a proof of concept function called ArticleListAlternate() in file ArticleList.cs which shows how shd be done
 
 Sometimes more than one piece of HTML must be swapped. In this case, the server prepares the required pieces and send them together, side-by-side. 
 In RealWorld there is function called RenderPages in UIBuilder.cs which does exactly this.  
@@ -193,7 +193,7 @@ Only one piece is swapped normally (using hx-target). The rest use a mechanism c
 
 ### IMPORTANT
 
-Becasue this is a SPA, page swapping usually involves only fractions of the full page.
+Because this is a SPA, page swapping usually involves only fractions of the full page.
 However a full page must be sent to browser in at least 2 cases:
 1. When the site is first accessed
 2. When an internal link is opened in a new tab/window
@@ -210,7 +210,7 @@ It has the following components:
     -	Inject (actually uses the injected) main service and request parameters
 -	RealWorldService - the main service:
     -	Injects or creates and initializes all the other components used by the backend
-    -	Sets up the Htmx flag (true for internal links, false when the the link is opened in different tab/window)
+    -	Sets up the Htmx flag (true for internal links, false when the link is opened in different tab/window)
     -	Creates the repository
     -	Creates the authentication service
     -	Sets up the current user
