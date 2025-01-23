@@ -142,12 +142,11 @@ However because they are always used together, the framework automatically add t
 
 ## 4.Navigation and page swap
 
-FSS is an SPA building framework. The server is sending only pieces of HTML, not full pages, to the browser, which will replace the existing HTML with the new ones.
-For example, RealWorld app has a header, a footer and some content (called main content) in between. Most navigation inside the site involves only changing the main content, while header and footer remain unchanged. 
-(However the HTML being swapped may be much smaller, maybe as small as a single button or label)
-So any time an internal link is clicked, only the main content is sent to browser, replacing the existing content. This is called HTML swapping and is accomplished using the HTMX library. 
+FSS is an SPA building framework. The server is sending only pieces of HTML, not full pages, to the browser, which will replace the existing HTML with the new ones.  
+For example, RealWorld app has a header, a footer and some content (called main content) in between. Most navigation inside the site involves only changing the main content, while header and footer remain unchanged. (However the HTML being swapped may be much smaller, maybe as small as a single button or label)  
+Any time an internal link is clicked, only the main content is sent to browser, replacing the existing content. This is called HTML swapping and is accomplished using the HTMX library. 
 For more details of how swapping works, please see this: <https://htmx.org/docs/>  
-Using the library means setting two attributes of the element that triggers the navigation: usually an anchor (`<a>` tag) or a button, but any element can be used for this
+Using the library means setting two attributes of the element that triggers the navigation (usually an anchor (`<a>` tag) or a button, but any element can be used for this):
 1)	hx-target (hxTarget): set to the ID of the element that must be replaced. However the actual format is: hx-target = #ID, note that the ID must be prefixed with # char
 2)	hx-swap (hxSwap): set to the method used to swap. For details see: link
 
@@ -158,14 +157,14 @@ Of course, any anchor element usually also needs a href attribute. If the boost 
 Links can be fixed (constant) or dynamic which in turn can be: server generated (C# expression but constant at runtime) or client generated (from x-data)  
 Fixed and server links are just regular C# strings.  
 However client links have a special format and need one more attribute:
-1)	Format
+1)	Format  
 For example for this link pointing to “/profile/{username}”, the link is like this:  
     `$"'{Routes.Profile}' + {js.Field(x => x.Author.Username)}"`
 
-This is actually a JS expression with several parts, some fixed and some variable:
-Routes.Profile is a C# constant and is the fixed part. It must be surrounded by single quotes
-js.Field(x => x.Author.Username) is the JSBuilder property expression that will return the Username from x-data
-The parts are separated by the “+” sign which will be processed by JS in the browser, concatenating the two parts.
+This is actually a JS expression with several parts, some fixed and some variable:  
+Routes.Profile is a C# constant and is the fixed part. It must be surrounded by single quotes  
+js.Field(x => x.Author.Username) is the JSBuilder property expression that will return the Username from x-data  
+The parts are separated by the “+” sign which will be processed by JS in the browser, concatenating the two parts.  
 A link can have more than two parts but all must follow the same rules: constant parts surrounded by single quotes and all parts separated by “+”
 
 2)	In order to use x-data, the x-bind attribute must be used, binding the href (or hx-get if not boosted) attribute:  
@@ -183,7 +182,7 @@ RealWorld app doesn’t use client links, however there is a proof of concept fu
 
 
 Sometimes more than one piece of HTML must be swapped. In this case, the server prepares the required pieces and send them together, side-by-side. 
-In RealWorld there is function called RenderPages in UIBuilder.cs which does exactly this.
+In RealWorld there is function called RenderPages in UIBuilder.cs which does exactly this.  
 Only one piece is swapped normally (using hx-target). The rest use a mechanism called Out of Band swap (https://htmx.org/attributes/hx-swap-oob/) and must have the attribute hx-swap-oob = “true” (hxOob = true in HtmlSharp). Look for example in FollowHandler.cs to see how is done. 
 
 ## 5. Backend
