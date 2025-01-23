@@ -55,7 +55,7 @@ Using HtmlAttributes has some big advantages:
 -	Attributes can be any type: string, tuple, bool are used but any other type is possible
 -	Syntetic attributes: group of attributes set once
 
-If the element has no attributes, you must pass “null” in its place. Alternatively you can use the special null attribute : “_”, which is almost exclusively used in RealWorld instead of null 
+If the element has no attributes, you must pass “null” in its place. Alternatively you can use the special null attribute : “_”, which is almost exclusively used in RealWorldSharp instead of null 
 
 ## 2. Adding data
 
