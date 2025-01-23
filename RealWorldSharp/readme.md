@@ -85,7 +85,7 @@ Ex (note that following examples are not actual code from RealWorld app):
 
 While this is a simple but common usage of data, more complex scenario are possible: use of nested x-data, adding JS functions to x-data, use of x-for attribute to iterate through lists. These can be found in the RealWorld app, either actively used or just presented as proof of concept
 
-More about x-data
+### More about x-data
 
 If LoginModel is a C# class like this:
 
@@ -110,7 +110,8 @@ Some data is not handled by client, is actually determined by the context and is
 
 ## 3. Saving data
 
-After data is updated, it’s time to send it to server for save. This is done using a Button action and HTMX attributes or a combination of HTMX and AlpineJs attributes. (But note that any HTML element can be used, it's just that Buttons are the most familiar).  
+After data is updated, it’s time to send it to server for save.  
+This is done using a Button action and HTMX attributes or a combination of HTMX and AlpineJs attributes. (But note that any HTML element can be used, it's just that Buttons are the most familiar).  
 First of all, data must be some sort of serialized JSON. That means that server data must be a class, even if it has only one member. Client data (x-data) is already JSON but must be handled is a specific way, as seen below.  
 In order to save data, several attributes must be set:
 
@@ -123,11 +124,11 @@ If data is x-data, an additional attribute is used: x-bind (AlpineJs): <https://
 The format of this attribute is  
 “x-bind:hx-vals=value” 
 or a shorter form:  
-“:hx-vals=value”.
+“:hx-vals=value”.  
 This attribute basically gives access to x-data to other attributes (not part of AlpineJs). In this case it gives access to x-data to hx-vals.
 And the value is this JS expression: “JSON.stringify($data.item)”. 
-“$data” is the AlpineJS global name for x-data, “item” is the JSOL variable created by JSBuilder and “JSON.stringify” is the JS way or serializing JSON.
-So the above attribute would look like this:
+“$data” is the AlpineJS global name for x-data, “item” is the JSOL variable created by JSBuilder and “JSON.stringify” is the JS way of serializing JSON.
+So the above attribute would look like this:  
 “:hx-vals= JSON.stringify($data.item)”.
 
 RealWorld app combines some of these attributes which always appear in the same order and have same values into custom (or syntetic) attributes, reducing repetitions and enhancing clarity.
@@ -135,9 +136,8 @@ RealWorld app combines some of these attributes which always appear in the same 
 ### VERY IMPORTANT
 
 Using hx-vals is not the default way of handling data for HTMX. It uses form data instead. In order for hx-vals to work, a custom extension (<https://htmx.org/extensions/>) called “hx-noformdata” was added in the Head of the HTML document. Every time hx-vals is used, an additional attribute must be set (<https://htmx.org/attributes/hx-ext/>): 
-hx-ext= "hx-noformdata";
+hx-ext= "hx-noformdata";  
 However because they are always used together, the framework automatically add this attribute whenever hx-post is used so you don’t have to add it yourself. You still have to use the extension present in HTML Head
-
 
 ## 4.Navigation and page swap
 
@@ -150,15 +150,15 @@ Using the library means setting two attributes of the element that triggers the 
 1)	hx-target (hxTarget): set to the ID of the element that must be replaced. However the actual format is: hx-target = #ID, note that the ID must be prefixed with # char
 2)	hx-swap (hxSwap): set to the method used to swap. For details see: link
 
-While these attributes can be used any time, HTMX has another attribute to simplify things: hx-boost (<https://htmx.org/attributes/hx-boost/>). When this is set on some element, the other two attributes mentioned above don’t have to be used for any nested anchor , they will use the target and swap indicated by the boost set on parent. So for example you can set it at the top of main content element (as is done in RealWorld) and benefit almost everywhere.
+While these attributes can be used any time, HTMX has another attribute to simplify things: hx-boost (<https://htmx.org/attributes/hx-boost/>). When this is set on some element, the other two attributes mentioned above don’t have to be used for any nested anchor , they will use the target and swap indicated by the boost set on parent. So for example you can set it at the top of main content element (as is done in RealWorld) and benefit almost everywhere.  
 Note though that there is a catch when using hx-boost. If a nested element is a form and the form doesn’t have any anchors or submit buttons, HTMX will signal an error. For this reason, in RealWorld, any element with a form has hx-boost disabled (hx-boost = false). 
 
-Of course, any anchor element usually also needs a href attribute. If the boost mechanism is not used, hx-get attribute (<https://htmx.org/attributes/hx-get/>) must be used together with href, both pointing to same link (Technically when hx-get is used, href is not required, however using it will make the anchor look normal when hover – cursor change, underlink etc)
-Links can be fixed (constant) or dynamic which in turn can be: server generated (C# expression but constant at runtime) or client generated (from x-data)
-Fixed and server links are just regular C# strings.
+Of course, any anchor element usually also needs a href attribute. If the boost mechanism is not used, hx-get attribute (<https://htmx.org/attributes/hx-get/>) must be used together with href, both pointing to same link (Technically when hx-get is used, href is not required, however using it will make the anchor look normal when hover – cursor change, underlink etc)  
+Links can be fixed (constant) or dynamic which in turn can be: server generated (C# expression but constant at runtime) or client generated (from x-data)  
+Fixed and server links are just regular C# strings.  
 However client links have a special format and need one more attribute:
 1)	Format
-For example for this link pointing to “/profile/{username}”, the link is like this:
+For example for this link pointing to “/profile/{username}”, the link is like this:  
     `$"'{Routes.Profile}' + {js.Field(x => x.Author.Username)}"`
 
 This is actually a JS expression with several parts, some fixed and some variable:
@@ -167,8 +167,8 @@ js.Field(x => x.Author.Username) is the JSBuilder property expression that will 
 The parts are separated by the “+” sign which will be processed by JS in the browser, concatenating the two parts.
 A link can have more than two parts but all must follow the same rules: constant parts surrounded by single quotes and all parts separated by “+”
 
-2)	In order to use x-data, the x-bind attribute must be used, binding the href (or hx-get if not boosted) attribute:
-HTML:
+2)	In order to use x-data, the x-bind attribute must be used, binding the href (or hx-get if not boosted) attribute:  
+HTML:  
   	`:href = link`
 
 To do this in C#, you can do
