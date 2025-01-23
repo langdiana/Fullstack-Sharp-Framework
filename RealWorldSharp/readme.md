@@ -224,7 +224,7 @@ It has the following components:
 -	UIBuilder: assembles various parts of the page and renders the final HTML sent to the browser
 -	Repository: data storage faced service. It’s using EFCore but it can be easily changed to other ORM
 
-A few words about testing. 
+A few words about testing.  
 All tests are done against CommandHandlers. There are 3 types of testing:
 -	Visual testing: displays the HTML sent to the browser. Can be used before most of the backend is implemented, it just needs a Command, CommandHandler and UIBuilder. Save the HTML from Command.Result somewhere and display in your current browser. Make sure that HTML includes the document HEAD and deploy the local css (if any) to same location where you place the HTML
 -	Unit testing: unit tests the web pages. Similar to unit testing in React. Unfortunately there is no testing library in C# for this, something like react-testing-library. I used HtmlAgilityPack (<https://html-agility-pack.net/>) to help creating some tests.
