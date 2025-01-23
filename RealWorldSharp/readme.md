@@ -24,7 +24,7 @@ A piece of code can look like this:
     )
 
 The first argument is an HtmlAttributes object instantiated and initialized on the fly. Every HTML attribute is a property of the HtmlAttributes class. So this element has 2 attributes: a class and an ID.
-The second argument is a list of two nested elements: a <h1> and a text
+The second argument is a list of two nested elements: a `<h1>` and a text
 This code will generate this HTML:
 
     <div class="some class" id="ID1"> <h1 class="text-xs-center">Sign in</h1>
