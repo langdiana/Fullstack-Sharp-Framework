@@ -91,9 +91,9 @@ If LoginModel is a C# class like this:
 
     public class LoginModel
     {
-                public string Email { get; set; } = null!;
+                public string Email { get; set; }
 
-                public string Password { get; set; } = null!;
+                public string Password { get; set; }
     }
 
 Then x-data created by JSBuilder is a string that looks like this:
