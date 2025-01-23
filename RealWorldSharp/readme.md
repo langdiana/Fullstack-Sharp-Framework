@@ -111,7 +111,8 @@ x-model is: “item.Email”
 JSBuilder has functionality to change the default variable (“item”) to something else. You can also add additional JS code (in the form of C# strings) to x-data
 
 However not all data is processed using x-data. Only data that is handled and changed by the client is using x-data (we call this client data). Ex: Login credentials, article content etc.
-Some data is not handled by client, is actually determined by the context and is rendered by server (server data). Ex: Favorite count, Follow count. The difference is very important because client data (x-data) and server data are processed differently.
+Some data is not handled by client, is actually determined by the context and is rendered by server (server data). Server data is passed as arguments to HtmlSharp functions. Ex: Favorite count, Follow count.  
+The difference is very important because client data (x-data) and server data are processed differently.
 
 ## 3. Saving data
 
