@@ -133,7 +133,7 @@ So the above attribute would look like this:
 
 RealWorld app combines some of these attributes which always appear in the same order and have same values into custom (or syntetic) attributes, reducing repetitions and enhancing clarity.
 
-# VERY IMPORTANT
+### VERY IMPORTANT
 
 Using hx-vals is not the default way of handling data for HTMX. It uses form data instead. In order for hx-vals to work, a custom extension (<https://htmx.org/extensions/>) called “hx-noformdata” was added in the Head of the HTML document. Every time hx-vals is used, an additional attribute must be set (<https://htmx.org/attributes/hx-ext/>): 
 hx-ext= "hx-noformdata";
@@ -191,17 +191,17 @@ Only one piece is swapped normally (using hx-target). The rest use a mechanism c
 The backend is using Minimal API , EF Core and a Command - CommandHandler architecture. 
 It has the following components:
 -	Endpoints:
- -	Handles the requests from web page MinimalAPI endpoints: MapGet, MapPost etc. 
- -	Injects (actually uses the injected) main service and request parameters; 
+    -	Handles the requests from web page MinimalAPI endpoints: MapGet, MapPost etc. 
+    -	Injects (actually uses the injected) main service and request parameters; 
 -	RealWorldService - the main service:
- -	Injects or creates and initializes all the other components used by the backend
- -	Sets up the Htmx flag
- -	Creates the repository
- -	Creates the authentication service
- -	Sets up the current user
- -	Creates and initializes the Commands, which keep the request parameters, the html produced as a result of the request and additional data.
- -	Creates, initializes and runs the CommandHandlers 
- -	Renders a web page/fragment which is returned to the browser by the ASP NET system
+    -	Injects or creates and initializes all the other components used by the backend
+    -	Sets up the Htmx flag
+    -	Creates the repository
+    -	Creates the authentication service
+    -	Sets up the current user
+    -	Creates and initializes the Commands, which keep the request parameters, the html produced as a result of the request and additional data.
+    -	Creates, initializes and runs the CommandHandlers 
+    -	Renders a web page/fragment which is returned to the browser by the ASP NET system
 -	AuthService: authentication service
 -	UIBuilder: assembles various parts of the page and renders the final HTML sent to the browser
 -	Repository: data storage faced service. It’s using EFCore but it can be easily changed to other ORM
