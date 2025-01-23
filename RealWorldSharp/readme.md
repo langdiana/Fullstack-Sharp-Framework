@@ -1,5 +1,5 @@
 
-1. Coding with HtmlSharp. 
+## 1. Coding with HtmlSharp. 
 
 The first step in creating a web application is designing and creating web pages. This is done using HtmlSharp library. 
 The code looks very much like real HTML, but it’s using C# functions and classes instead. Every HTML element has a corresponding function which ultimately generates the exact HTML tag that is targeting.
@@ -52,11 +52,11 @@ Using HtmlAttributes has some big advantages:
 
 If the element has no attributes, you must pass “null” in its place. Alternatively you can use the special null attribute : “_”, which is almost exclusively used in RealWorld instead of null 
 
-2. Adding data.
+## 2. Adding data.
 
-Data is added to pages using attributes. For this, AlpineJS library is used, specifically the attributes coming with it.
-The attribute x-data (xData in c#) is made precisely for this: <https://alpinejs.dev/directives/data>
-It contains a JavaScript object literal ([JSOL](https://playcode.io/javascript/object-literal)) that can be accessed by nested elements to display or update. This is done using two more attributes: x-text (xText): <https://alpinejs.dev/directives/text> and x-model (xModel): <https://alpinejs.dev/directives/model>
+Data is added to pages using attributes. For this, AlpineJS library is used, specifically the attributes coming with it.  
+The attribute x-data (xData in c#) is made precisely for this: <https://alpinejs.dev/directives/data>  
+It contains a JavaScript object literal ([JSOL](https://playcode.io/javascript/object-literal)) that can be accessed by nested elements to display or update. This is done using two more attributes: x-text (xText): <https://alpinejs.dev/directives/text> and x-model (xModel): <https://alpinejs.dev/directives/model>  
 For a typical C# component, this mechanism is totally automatic and wrapped in C#, no JS is required. This is done using a helper class called JSBuilder which converts a C# class into a JSOL and provides type safe access to its members.
 This is the equivalent of data aware programming in WinForms with the HTML elements as data aware controls and x-data as data source.
 
@@ -64,7 +64,7 @@ Ex (note that following examples are not actual code from RealWorld app):
 
     public static HtmlElement LoginPage(LoginModel login) // login is data passed as argument to this component
     {
-	var js = new JSBuilder<LoginModel>(login); // JSBuilder created using the single item constructor
+        var js = new JSBuilder<LoginModel>(login); // JSBuilder created using the single item constructor
                                                    // there is also a constructor for a List
         var xdata = js.Build(); // JSOL created here
 
@@ -109,10 +109,10 @@ JSBuilder has functionality to change the default variable (“item”) to somet
 However not all data is processed using x-data. Only data that is handled and changed by the client is using x-data (we call this client data). Ex: Login credentials, article content etc.
 Some data is not handled by client, is actually determined by the context and is rendered by server (server data). Ex: Favorite count, Follow count. The difference is very important because client data (x-data) and server data are processed differently.
 
-3. Saving data.
+## 3. Saving data.
 
-After data is updated, it’s time to send it to server for save. This is done using a Button action and HTMX attributes or a combination of HTMX and AlpineJs attributes. (But note that any HTML element can be used, it's just that Buttons are the most familiar).
-First of all, data must be some sort of serialized JSON. That means that server data must be a class, even if it has only one member. Client data (x-data) is already JSON but must be handled is a specific way, as seen below
+After data is updated, it’s time to send it to server for save. This is done using a Button action and HTMX attributes or a combination of HTMX and AlpineJs attributes. (But note that any HTML element can be used, it's just that Buttons are the most familiar).  
+First of all, data must be some sort of serialized JSON. That means that server data must be a class, even if it has only one member. Client data (x-data) is already JSON but must be handled is a specific way, as seen below.  
 In order to save data, several attributes must be set:
 
 hx-post (hxPost): <https://htmx.org/attributes/hx-post/> : the url of the endpoint that will process the action (you can also use hx-put or hx-patch)
@@ -120,7 +120,7 @@ hx-vals(jsonVals): <https://htmx.org/attributes/hx-vals/> : a string containing 
 
 If data is server data, the value of hx-value is the result of calling JsonConvert.SerializeObject(obj), where obj is an instance of the class defining the data. See FavoriteCounter and FollowCounter components for examples
 
-If data is x-data, an additional attribute is used: x-bind (AlpineJs): <https://alpinejs.dev/directives/bind>
+If data is x-data, an additional attribute is used: x-bind (AlpineJs): <https://alpinejs.dev/directives/bind>  
 The format of this attribute is  
 “x-bind:hx-vals=value” 
 or a shorter form:  
@@ -139,7 +139,7 @@ hx-ext= "hx-noformdata";
 However because they are always used together, the framework automatically add this attribute whenever hx-post is used so you don’t have to add it yourself. You still have to use the extension present in HTML Head
 
 
-4.Navigation and page swap.
+## 4.Navigation and page swap.
 
 FSS is an SPA building framework. The server is sending only pieces of HTML, not full pages, to the browser, which will replace the existing HTML with the new ones.
 For example, RealWorld app has a header, a footer and some content (called main content) in between. Most navigation inside the site involves only changing the main content, while header and footer remain unchanged. 
@@ -185,7 +185,8 @@ Sometimes more than one piece of HTML must be swapped. In this case, the server 
 In RealWorld there is function called RenderPages in UIBuilder.cs which does exactly this.
 Only one piece is swapped normally (using hx-target). The rest use a mechanism called Out of Band swap (https://htmx.org/attributes/hx-swap-oob/) and must have the attribute hx-swap-oob = “true” (hxOob = true in HtmlSharp). Look for example in FollowHandler.cs to see how is done. 
 
-5. Backend.
+## 5. Backend.
+
 The backend is using Minimal API , EF Core and a Command - CommandHandler architecture. 
 It has the following components:
 -	Endpoints:
@@ -211,7 +212,7 @@ All tests are done against CommandHandlers. There are 3 types of testing:
 -	Integration testing: tests the data /repository used by web pages
 
 
-6. Summary
+## 6. Summary
 Putting all together
 
 The process of creating a web app, page by page, is like this:
