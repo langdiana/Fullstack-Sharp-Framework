@@ -69,7 +69,7 @@ public class PostRegisterHandler : CommandHandlerBase<PostRegisterCommand>
 			return;
 
 		var settingPage = SettingsPage(userModel, null, null, null);
-		var header = HeaderAuth(user.Username);
+		var header = HeaderAuth(user.Username, true);
 		cmd.Result = UiBuilder.RenderPages(settingPage, [header]);
 	}
 }

@@ -16,7 +16,7 @@ public class UIBuilder: IUIBuilder
 		var appHead = new AppHead();
 		var app = appHead.Build();
 		var appBody = new AppBody();
-		var header = username != null ? HeaderAuth(username) : HeaderUnauth();
+		var header = username != null ? HeaderAuth(username, false) : HeaderUnauth(false);
 		app.Add(appBody.Render(mainContent, header));
 		var html = app.Render();
 		return Results.Content(html, contentType: "text/html");

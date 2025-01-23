@@ -10,7 +10,6 @@ public class LoginHandler : CommandHandlerBase<LoginCommand>
 
 		string? errorMessage = null;
 
-		// check password
 		if (string.IsNullOrWhiteSpace(cmd.Login.Email) || cmd.Login.Password == null || cmd.Login.Password.Length < 3)
 		{
 			errorMessage = "Invalid credentials";
@@ -20,7 +19,7 @@ public class LoginHandler : CommandHandlerBase<LoginCommand>
 			return;
 		}
 
-		var user = await Repo.FirstOrDefault<User>(x => x.Email == cmd.Login.Email);
+		var user = await Repo.FirstOrDefault<User>(x => x.Email == cmd.Login.Email && x.Password == cmd.Login.Password);
 		if (user == null)
 		{
 			errorMessage = "User not found";
@@ -34,7 +33,7 @@ public class LoginHandler : CommandHandlerBase<LoginCommand>
 		await Repo.SetCrtUser(user.UserId);
 
 		var home = await GetHomePage(FeedTypeEnum.Global);
-		var header = HeaderAuth(user.Username);
+		var header = HeaderAuth(user.Username, true);
 		cmd.Result = UiBuilder.RenderPages(home, [header]);
 	}
 }

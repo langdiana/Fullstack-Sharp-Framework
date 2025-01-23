@@ -9,7 +9,7 @@ public class LogoutHandler : CommandHandlerBase<LogoutCommand>
 		await Repo.SetCrtUser(null);
 
 		var home = await GetHomePage(FeedTypeEnum.Global);
-		var header = HeaderUnauth();
+		var header = HeaderUnauth(true);
 		cmd.Result = UiBuilder.RenderPages(home, [header]);
 	}
 }

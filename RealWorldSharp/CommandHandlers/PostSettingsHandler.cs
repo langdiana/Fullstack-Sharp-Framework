@@ -56,7 +56,7 @@ public class PostSettingsHandler : CommandHandlerBase<PostSettingsCommand>
 		await Repo.Save(user);
 
 		var home = await GetHomePage(FeedTypeEnum.Global);
-		var header = HeaderAuth(user.Username);
+		var header = HeaderAuth(user.Username, true);
 		cmd.Result = UiBuilder.RenderPages(home, [header]);
 	}
 }

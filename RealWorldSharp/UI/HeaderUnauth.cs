@@ -2,10 +2,10 @@
 
 public static partial class Layout
 {
-	public static HtmlElement HeaderUnauth()
+	public static HtmlElement HeaderUnauth(bool isOob)
 	{
 		return
-		nav(new() { className = "navbar navbar-light", id = Targets.Header.Id, hxOob = true },
+		nav(new() { className = "navbar navbar-light", id = Targets.Header.Id, hxOob = isOob },
 			div(new() { className = "container", },
 				a(new() { className = "navbar-brand", href = "/", }, "conduit"
 				),
