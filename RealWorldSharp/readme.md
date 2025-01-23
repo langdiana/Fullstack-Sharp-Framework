@@ -19,7 +19,7 @@ Ex:
 A piece of code can look like this:
 
     div(new() { className = "some class", id = “ID1” },
-	h1(new() { className = "text-xs-center" }, "Sign in"
+        h1(new() { className = "text-xs-center" }, "Sign in"
         )
     )
 
