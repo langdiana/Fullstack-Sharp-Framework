@@ -7,7 +7,7 @@ For example:
     
     public static HtmlElement div(…)
     
-will generate the <div> element.
+will generate the `<div>` element.
 	public static HtmlElement ul(…)
 will generate <ul> element and so on
 
