@@ -147,8 +147,8 @@ For example, RealWorld app has a header, a footer and some content (called main 
 Any time an internal link is clicked, only the main content is sent to browser, replacing the existing content. This is called HTML swapping and is accomplished using the HTMX library. 
 For more details of how swapping works, please see this: <https://htmx.org/docs/>  
 Using the library means setting two attributes of the element that triggers the navigation (usually an anchor (`<a>` tag) or a button, but any element can be used for this):
-1)	hx-target (hxTarget): set to the ID of the element that must be replaced. However the actual format is: hx-target = #ID, note that the ID must be prefixed with # char
-2)	hx-swap (hxSwap): set to the method used to swap. For details see: link
+1)	hx-target (hxTarget) <https://htmx.org/attributes/hx-target/>: set to the ID of the element that must be replaced. However the actual format is: hx-target = #ID, note that the ID must be prefixed with # char
+2)	hx-swap (hxSwap): set to the method used to swap. For details see: <https://htmx.org/attributes/hx-swap/>
 
 While these attributes can be used any time, HTMX has another attribute to simplify things: hx-boost (<https://htmx.org/attributes/hx-boost/>). When this is set on some element, the other two attributes mentioned above don’t have to be used for any nested anchor , they will use the target and swap indicated by the boost set on parent. So for example you can set it at the top of main content element (as is done in RealWorld) and benefit almost everywhere.  
 Note though that there is a catch when using hx-boost. If a nested element is a form and the form doesn’t have any anchors or submit buttons, HTMX will signal an error. For this reason, in RealWorld, any element with a form has hx-boost disabled (hx-boost = false). 
