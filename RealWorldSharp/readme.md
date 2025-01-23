@@ -6,10 +6,10 @@ The code looks very much like real HTML, but it’s using C# functions and class
 For example:
     
     public static HtmlElement div(…)
-    
 will generate the `<div>` element.
-	public static HtmlElement ul(…)
-will generate <ul> element and so on
+
+    public static HtmlElement ul(…)
+will generate `<ul>` element and so on
 
 Almost all functions have two arguments: first one is the attributes of the element (can be null) and the second is a list of nested elements (using params keyword). When rendered, they will generate the element tag, the attributes and all nested elements
 Ex:
