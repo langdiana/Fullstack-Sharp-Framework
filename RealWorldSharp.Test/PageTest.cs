@@ -77,17 +77,5 @@ namespace RealWorldSharp.Test
 			ShowHtml(cmd.Result);
 		}
 
-		[TestMethod]
-		public void Test1()
-		{
-			var element =
-				div(new() { className = "some class", id = "ID1" },
-					h1(new() { className = "text-xs-center" }, "Sign in"
-					)
-				);
-
-			var x = element.Render();
-		}
-
 	}
 }
