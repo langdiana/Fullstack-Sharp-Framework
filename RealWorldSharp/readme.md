@@ -153,7 +153,7 @@ For example, RealWorldSharp app has a header, a footer and some content (called 
 Any time an internal link is clicked, only the main content is sent to browser, replacing the existing content. This is called HTML swapping and is accomplished using the HTMX library. 
 For more details of how swapping works, please see this: <https://htmx.org/docs/>  
 Using the library means setting two attributes of the element that triggers the navigation (usually an anchor (`<a>` tag) or a button, but any element can be used for this):
-1)	hx-target (hxTarget) <https://htmx.org/attributes/hx-target/>: set to the ID of the element that must be replaced. The actual format is:
+1)	hx-target (hxTarget) <https://htmx.org/attributes/hx-target/>: set to the ID of the element that must be replaced. The actual format is:  
     `hx-target = #ID`, note that the ID must be prefixed with # char
 3)	hx-swap (hxSwap): set to the method used to swap. For details see: <https://htmx.org/attributes/hx-swap/>
 
