@@ -35,11 +35,11 @@ Ex:
 
     public static HtmlElement LoginPage()
     {
-	return
-	div(new() { className = "some class", id = “ID1” },
-		h1(new() { className = "text-xs-center" }, "Sign in"
-        	)
-	)
+        return
+        div(new() { className = "some class", id = “ID1” },
+            h1(new() { className = "text-xs-center" }, "Sign in"
+            )
+        )
     }
 
 As an alternative to manually coding every element, an utility (called HtmlConvert) is provided that will take a piece of existing HTML and will generate C# code. You can design the pages in your favorite web designer, copy the produced HTML and paste into HtmlConvert and you have now the C# code to continue with the development.
