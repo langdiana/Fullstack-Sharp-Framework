@@ -92,7 +92,6 @@ If LoginModel is a C# class like this:
     public class LoginModel
     {
                 public string Email { get; set; }
-
                 public string Password { get; set; }
     }
 
@@ -100,8 +99,8 @@ Then x-data created by JSBuilder is a string that looks like this:
 
 item: {Email: null, Password: null}
 
-It’s a JSOL with one variable (item) which is initialized with the provided values of the LoginModel (null in this case)
-x-text is actually this: “item.Email”
+It’s a JSOL with one variable (item) which is initialized with the provided values of the LoginModel (null in this case)  
+x-text is actually this: “item.Email”  
 x-model is: “item.Email”
 
 JSBuilder has functionality to change the default variable (“item”) to something else. You can also add additional JS code (in the form of C# strings) to x-data
