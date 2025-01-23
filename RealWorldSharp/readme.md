@@ -129,7 +129,7 @@ This attribute basically gives access to x-data to other attributes (not part of
 And the value is this JS expression:  
   `“JSON.stringify($data.item)”. `  
 “$data” is the AlpineJS global name for x-data, “item” is the JSOL variable created by JSBuilder and “JSON.stringify” is the JS way of serializing JSON.  
-So the above attribute would look like this:  
+So the above attribute would look like this in HTML:  
 `“:hx-vals= JSON.stringify($data.item)”.`
 
 RealWorld app combines some of these attributes which always appear in the same order and have same values into custom (or syntetic) attributes, reducing repetitions and enhancing clarity.
