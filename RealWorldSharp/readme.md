@@ -126,10 +126,11 @@ The format of this attribute is
 or a shorter form:  
 “:hx-vals=value”.  
 This attribute basically gives access to x-data to other attributes (not part of AlpineJs). In this case it gives access to x-data to hx-vals.
-And the value is this JS expression: “JSON.stringify($data.item)”. 
-“$data” is the AlpineJS global name for x-data, “item” is the JSOL variable created by JSBuilder and “JSON.stringify” is the JS way of serializing JSON.
+And the value is this JS expression:  
+  `“JSON.stringify($data.item)”. `  
+“$data” is the AlpineJS global name for x-data, “item” is the JSOL variable created by JSBuilder and “JSON.stringify” is the JS way of serializing JSON.  
 So the above attribute would look like this:  
-“:hx-vals= JSON.stringify($data.item)”.
+`“:hx-vals= JSON.stringify($data.item)”.`
 
 RealWorld app combines some of these attributes which always appear in the same order and have same values into custom (or syntetic) attributes, reducing repetitions and enhancing clarity.
 
@@ -145,7 +146,7 @@ FSS is an SPA building framework. The server is sending only pieces of HTML, not
 For example, RealWorld app has a header, a footer and some content (called main content) in between. Most navigation inside the site involves only changing the main content, while header and footer remain unchanged. 
 (However the HTML being swapped may be much smaller, maybe as small as a single button or label)
 So any time an internal link is clicked, only the main content is sent to browser, replacing the existing content. This is called HTML swapping and is accomplished using the HTMX library. 
-For more details of how swapping works, please see this: <https://htmx.org/docs/>
+For more details of how swapping works, please see this: <https://htmx.org/docs/>  
 Using the library means setting two attributes of the element that triggers the navigation: usually an anchor (`<a>` tag) or a button, but any element can be used for this
 1)	hx-target (hxTarget): set to the ID of the element that must be replaced. However the actual format is: hx-target = #ID, note that the ID must be prefixed with # char
 2)	hx-swap (hxSwap): set to the method used to swap. For details see: link
