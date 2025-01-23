@@ -140,7 +140,7 @@ Using hx-vals is not the default way of handling data for HTMX, which uses form 
 hx-ext= "hx-noformdata";  
 However because they are always used together, the framework automatically add this attribute whenever hx-post is used so you don’t have to add it yourself. You still have to use the extension present in HTML Head
 
-## 4.Navigation and page swap
+## 4. Navigation and page swap
 
 FSS is an SPA building framework. The server is sending only pieces of HTML, not full pages, to the browser, which will replace the existing HTML with the new ones.  
 For example, RealWorld app has a header, a footer and some content (called main content) in between. Most navigation inside the site involves only changing the main content, while header and footer remain unchanged. (However the HTML being swapped may be much smaller, maybe as small as a single button or label)  
@@ -203,7 +203,7 @@ It has the following components:
     -	Renders a web page/fragment which is returned to the browser by the ASP NET system
     -	Provides automatic logging, exception handling and profiling
 -	Commands: keep the request parameters, the html produced as a result of the request and additional data.
--	CommandHandlers: do the actial processing of the requests
+-	CommandHandlers: do the actual processing of the requests
 -	AuthService: authentication service
 -	UIBuilder: assembles various parts of the page and renders the final HTML sent to the browser
 -	Repository: data storage faced service. It’s using EFCore but it can be easily changed to other ORM
