@@ -183,7 +183,9 @@ For example for this link pointing to “/profile/{username}”, the link is lik
 
 This is actually a JS expression with several parts, some fixed and some variable:  
 > Routes.Profile is a C# constant and is the fixed part. It must be surrounded by single quotes  
+
 > js.Field(x => x.Author.Username) is the JSBuilder property expression that will return the Username from x-data  
+
 > The parts are separated by the “+” sign which will be processed by JS in the browser, concatenating the two parts.  
 
 A link can have more than two parts but all must follow the same rules: constant parts surrounded by single quotes and all parts separated by “+”
