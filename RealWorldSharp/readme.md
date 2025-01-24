@@ -132,11 +132,11 @@ If data is server data, the value of hx-value is the result of calling JsonConve
 
 If data is x-data, an additional attribute is used: x-bind (AlpineJs): <https://alpinejs.dev/directives/bind>  
 The format of this attribute is  
-> “x-bind:hx-vals=value” 
+> x-bind:hx-vals=value
 
 or a shorter form:  
 
-> “:hx-vals=value”.  
+> :hx-vals=value
 
 This attribute basically gives access to x-data to other attributes (not part of AlpineJs). In this case it gives access to x-data to hx-vals.
 And the value is this JS expression:  
@@ -144,7 +144,7 @@ And the value is this JS expression:
 
 where “$data” is the AlpineJS global name for x-data, “item” is the JSOL variable created by JSBuilder and “JSON.stringify” is the JS way of serializing JSON.  
 So the above attribute would look like this in HTML:  
-> `:hx-vals= JSON.stringify($data.item)`
+> :hx-vals= JSON.stringify($data.item)
 
 RealWorldSharp app combines some of these attributes which always appear in the same order and have same values into custom (or synthetic) attributes, reducing repetitions and enhancing clarity.
 
@@ -179,7 +179,7 @@ Fixed and server links are just regular C# strings.
 However client links have a special format and need one more attribute:
 1)	Format  
 For example for this link pointing to “/profile/{username}”, the link is like this:  
-    `$"'{Routes.Profile}' + {js.Field(x => x.Author.Username)}"`
+> $"'{Routes.Profile}' + {js.Field(x => x.Author.Username)}"
 
 This is actually a JS expression with several parts, some fixed and some variable:  
 > Routes.Profile is a C# constant and is the fixed part. It must be surrounded by single quotes  
