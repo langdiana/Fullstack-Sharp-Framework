@@ -14,9 +14,9 @@ For more information on how to this works with other frontends/backends, head ov
 
 # How it works
 
-Whole application is built in C# but is not using Blazor or razor pages.
-Frontend is created using C# HtmlSharp library and C# wrappers for HTMX and AlpineJs. 
-Backend is using ASP.Net MinimalApi and EFCore.
+Whole application is built in C# but is not using Blazor or razor pages.  
+Frontend is created using C# HtmlSharp library and C# wrappers for HTMX and AlpineJs.  
+Backend is using ASP.Net MinimalApi and EFCore.  
 Details about implementation and Fullstack Sharp Framework [here](https://github.com/langdiana/Fullstack-Sharp-Framework/blob/main/RealWorldSharp/readme.md) 
 
 # Getting started
