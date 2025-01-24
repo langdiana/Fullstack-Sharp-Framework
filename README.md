@@ -3,7 +3,7 @@
 > ### Fullstack Sharp Framework codebase containing RealWorld example (CRUD, auth, advanced patterns, etc) that adheres to the [RealWorld](https://github.com/gothinkster/realworld) spec and API.
 
 
-### [Demo](realworldsharp-a3fqa4fqffehfnh8.canadacentral-01.azurewebsites.net)&nbsp;&nbsp;&nbsp;&nbsp;[RealWorld](https://github.com/gothinkster/realworld)
+### [Demo](https://realworldsharp-a3fqa4fqffehfnh8.canadacentral-01.azurewebsites.net/)&nbsp;&nbsp;&nbsp;&nbsp;[RealWorld](https://github.com/gothinkster/realworld)
 
 This codebase was created to demonstrate a fully fledged fullstack application built with **Fullstack Sharp Framework** including CRUD operations, authentication, routing, pagination, and more.
 
@@ -33,5 +33,5 @@ Web pages generated have links to HTMX and AjaxJs libraries in the HTML document
 DB is InMemoryDatabase so nothing is persisted. Data is randomly generated except for the initial users.
 
 To run the app, clone or download the solution and open in VS2022.
-There is also a running instance [here](realworldsharp-a3fqa4fqffehfnh8.canadacentral-01.azurewebsites.net)
+There is also a running instance [here](https://realworldsharp-a3fqa4fqffehfnh8.canadacentral-01.azurewebsites.net/)
 
