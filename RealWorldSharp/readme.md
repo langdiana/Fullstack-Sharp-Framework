@@ -132,9 +132,12 @@ If data is server data, the value of hx-value is the result of calling JsonConve
 
 If data is x-data, an additional attribute is used: x-bind (AlpineJs): <https://alpinejs.dev/directives/bind>  
 The format of this attribute is  
-“x-bind:hx-vals=value” 
+> “x-bind:hx-vals=value” 
+
 or a shorter form:  
-“:hx-vals=value”.  
+
+> “:hx-vals=value”.  
+
 This attribute basically gives access to x-data to other attributes (not part of AlpineJs). In this case it gives access to x-data to hx-vals.
 And the value is this JS expression:  
   `“JSON.stringify($data.item)”. `  
