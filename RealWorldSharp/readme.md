@@ -151,7 +151,8 @@ RealWorldSharp app combines some of these attributes which always appear in the 
 ### VERY IMPORTANT
 
 Using hx-vals is not the default way of handling data for HTMX, which uses form data instead. In order for hx-vals to work, a custom extension (<https://htmx.org/extensions/>) called “hx-noformdata” was added in the Head of the HTML document. Every time hx-vals is used, an additional attribute must be set (<https://htmx.org/attributes/hx-ext/>): 
-hx-ext= "hx-noformdata";  
+> hx-ext= "hx-noformdata";  
+
 However because they are always used together, the framework automatically add this attribute whenever hx-post is used so you don’t have to add it yourself. 
 
 ## 4. Navigation and page swapping  
