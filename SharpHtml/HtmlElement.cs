@@ -41,7 +41,6 @@ public class HtmlElement
 		}
 		else
 		{
-			string closeTag = isSelfClosing ? ">" : $"</{tag}>";
 			if (isSelfClosing)
 				return @$"<{tag} {Attributes.Text}>";
 
