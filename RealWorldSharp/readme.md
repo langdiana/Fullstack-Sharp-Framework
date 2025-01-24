@@ -125,6 +125,7 @@ First of all, data must be some sort of serialized JSON. That means that server 
 In order to save data, several attributes must be set:
 
 > hx-post (hxPost): <https://htmx.org/attributes/hx-post/> : the url of the endpoint that will process the action (you can also use hx-put or hx-patch)
+
 > hx-vals(jsonVals): <https://htmx.org/attributes/hx-vals/> : a string containing serialized JSON. 
 
 If data is server data, the value of hx-value is the result of calling JsonConvert.SerializeObject(obj), where obj is an instance of the class defining the data. See FavoriteCounter and FollowCounter components for examples
