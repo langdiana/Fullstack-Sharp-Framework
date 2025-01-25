@@ -242,8 +242,8 @@ It has the following components:
     -	Creates, initializes and runs the CommandHandlers 
     -	Renders a web page/fragment which is returned to the browser by the ASP NET system
     -	Provides automatic logging, exception handling and profiling
--	Commands: keep the request parameters, the html produced as a result of the request and additional data.
--	CommandHandlers: do the actual processing of the requests
+-	Commands: keep the request parameters, the html produced as a result of the request and additional data
+-	CommandHandlers: do the actual processing of the requests; designed to be autonomous pieces of code, only depending on lower level services (data, UiBuilder); this way they are better managed and can be tested in isolation
 -	AuthService: authentication service
 -	UIBuilder: assembles various parts of the page and renders the final HTML sent to the browser
 -	Repository: data storage faced service. It’s using EFCore but it can be easily changed to other ORM
