@@ -47,7 +47,9 @@ Ex:
         )
     }
 
-As an alternative to manually coding every element, an utility (called HtmlConverter) is provided that will take a piece of existing HTML and will generate C# code. You can design the pages in your favorite web designer, copy the produced HTML and paste into HtmlConverter and you have now the C# code to continue with the development.
+This approach has considerable advantages as opposed to working with real HTML. Perhaps the biggest one is that you can break large pages into smaller, much easier to manage pieces. These pieces can be reused in other parts of your application, or can be shared with other developers, acting as re-useable components.
+
+As an alternative to manually coding every element, an utility (called HtmlConverter) is provided that will take a piece of existing HTML and will generate C# code. You can design the pages in your favorite web designer, copy the produced HTML and paste into HtmlConverter and you have now the C# code to continue with the development.  
 Actually this is how the pages in RealWorldSharp app were produced: the HTML code was copied from the provided templates and the C# code was generated for me.
 
 Using HtmlAttributes has some big advantages:
