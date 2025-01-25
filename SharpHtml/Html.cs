@@ -11,13 +11,10 @@ public static partial class Html
 		return elem;
 	}
 
-
-	// inline?
 	public static HtmlElement dialog(HtmlAttributes? attrs = null, params HtmlElement[] elements)
 	{
 		var elem = new HtmlElement("dialog", attrs, elements);
 		return elem;
 	}
-
 
 }
