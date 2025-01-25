@@ -68,7 +68,7 @@ It contains a JavaScript object literal ([JSOL](https://playcode.io/javascript/o
 For a typical HtmlSharp component, this mechanism is totally automatic and wrapped in C#, no JS is required. This is done using a helper class called JSBuilder which converts a C# class into a JSOL and provides type safe access to its members.  
 This is the equivalent of data aware programming in WinForms with the HTML elements as data aware controls and x-data as data source.
 
-Ex (note that following examples are not actual code from RealWorldSharp app):
+Ex:
 
     public static HtmlElement LoginPage(LoginModel login) // login is data passed as argument to this component
     {
@@ -91,7 +91,7 @@ Ex (note that following examples are not actual code from RealWorldSharp app):
         )
       }
 
-While this is a simple but common usage of data, more complex scenario are possible: use of nested x-data, adding JS functions to x-data, use of x-for attribute to iterate through lists. These can be found in the RealWorldSharp app, either actively used or just presented as proof of concept
+While this is a simple but common usage of data, more complex scenarios are possible: use of nested x-data, adding JS functions to x-data, use of x-for attribute to iterate through lists. These can be found in the RealWorldSharp app, either actively used or just presented as proof of concept
 
 ### More about x-data
 
@@ -105,11 +105,14 @@ If LoginModel is a C# class like this:
 
 Then x-data created by JSBuilder is a string that looks like this:
 
-item: {Email: null, Password: null}
+> item: {Email: "user@google.com", Password: "abc"}
 
-It’s a JSOL with one variable (item) which is initialized with the provided values of the LoginModel (null in this case)  
-> x-text is: “item.Email”  
-> x-model is: “item.Email”
+It’s a JSOL with one variable (item) which is initialized with the provided values of the LoginModel.  
+x-text and x-model contain the name of the field that is bound to that HTML element. For ex, in HTML it will look like this:
+> x-text="item.Email" or x-model="item.Email"
+
+JSBuilder provides a field accessor function so the fields can be set typesafe, with intelisense, without using strings. The above HTML sxpression becomes in C#:
+> xText = js.Field(x => x.Email)
 
 JSBuilder has functionality to change the default variable (“item”) to something else. You can also add additional JS code (in the form of C# strings) to x-data
 
