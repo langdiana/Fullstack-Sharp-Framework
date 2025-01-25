@@ -62,7 +62,8 @@ If the element has no attributes, you must pass “null” in its place. Alterna
 Data is added to pages using attributes. For this, AlpineJS library is used, specifically the attributes coming with it.  
 The attribute x-data (xData in c#) is made precisely for this: <https://alpinejs.dev/directives/data>  
 It contains a JavaScript object literal ([JSOL](https://playcode.io/javascript/object-literal)) that can be accessed by nested elements to display or update. This is done using two more attributes:  
-> x-text (xText): <https://alpinejs.dev/directives/text> - used to display data (readonly) 
+> x-text (xText): <https://alpinejs.dev/directives/text> - used to display data (readonly)
+
 > x-model (xModel): <https://alpinejs.dev/directives/model> - used to edit data
 
 For a typical HtmlSharp component, this mechanism is totally automatic and wrapped in C#, no JS is required. This is done using a helper class called JSBuilder which converts a C# class into a JSOL and provides type safe access to its members.  
