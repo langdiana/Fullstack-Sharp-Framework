@@ -112,7 +112,7 @@ It’s a JSOL with one variable (item) which is initialized with the provided va
 x-text and x-model contain the name of the field that is bound to that HTML element. For ex, in HTML it will look like this:
 > x-text="item.Email" or x-model="item.Email"
 
-JSBuilder provides a field accessor function so the fields can be set typesafe, with intelisense, without using strings. The above HTML expression becomes in C#:
+JSBuilder provides a field accessor function so the attributes can be set typesafe, with intelisense, without using strings. The above HTML expression becomes in C#:
 > xText = js.Field(x => x.Email)
 
 JSBuilder has functionality to change the default variable (“item”) to something else. You can also add additional JS code (in the form of C# strings) to x-data
