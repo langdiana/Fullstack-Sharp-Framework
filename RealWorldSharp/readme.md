@@ -49,15 +49,15 @@ Ex:
 
 This approach has considerable advantages as opposed to working with real HTML. Perhaps the biggest one is that you can break large pages into smaller, much easier to manage pieces. These pieces can be reused in other parts of your application, or can be shared with other developers as re-useable components.
 
-As an alternative to manually coding every element, an utility (called HtmlConverter) is provided that will take a piece of existing HTML and will generate C# code. You can design the pages in your favorite web designer, copy the produced HTML and paste into HtmlConverter and you have now the C# code to continue with the development.  
-Actually this is how the pages in RealWorldSharp app were produced: the HTML code was copied from the provided templates and the C# code was generated for me.
-
-Using HtmlAttributes has some big advantages:
+Also, using HtmlAttributes has some big advantages:
 -	Type safe HTML attributes
 -	Attributes can be any type: string, tuple, bool are used but any other type is possible
 -	Syntetic attributes: group of attributes set once
 
 If the element has no attributes, you must pass “null” in its place. Alternatively you can use the special null attribute : “_”, which is almost exclusively used in RealWorldSharp instead of null 
+
+As an alternative to manually coding every element, an utility (called HtmlConverter) is provided that will take a piece of existing HTML and will generate C# code. You can design the pages in your favorite web designer, copy the produced HTML and paste into HtmlConverter and you have now the C# code to continue with the development.  
+Actually this is how the pages in RealWorldSharp app were produced: the HTML code was copied from the provided templates and the C# code was generated for me.
 
 ## 2. Adding data
 
