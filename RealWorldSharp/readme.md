@@ -1,7 +1,7 @@
 ## Prerequisites
 
 Fullstack Sharp Framework uses HTMX (<https://htmx.org/>) and AlpineJS(<https://alpinejs.dev/>) libraries.
-For this, the web pages created with the framework must include scripts to install these libraries, usually in the HEAD section of the web page.
+For this, the web pages created with the framework must include scripts to install these libraries, usually in the Head section of the web page.
 See RealWorldSharp AppHead.cs file for an example.
 
 ## 1. Coding with HtmlSharp 
