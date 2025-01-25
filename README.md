@@ -28,7 +28,7 @@ RealWorldSharp is a C# VS2022 solution with 5 projects:
 - HtmlConverter - a Windows utility that converts HTML to C#
 - Lorem(https://github.com/dochoffiday/Lorem.NET) - a helper class library used for this demo to generate random data, upgraded to Net.8
 
-Web pages generated have links to HTMX and AjaxJs libraries in the HTML document HEAD.
+Web pages generated have links to HTMX and AjaxJs libraries in the HTML document Head.
 
 DB is InMemoryDatabase so nothing is persisted. Data is randomly generated except for the initial users.
 
