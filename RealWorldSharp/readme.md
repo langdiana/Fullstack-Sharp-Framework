@@ -104,7 +104,7 @@ Ex:
         )
       }
 
-While this is a simple but common usage of data, more complex scenarios are possible: use of nested x-data, adding JS functions to x-data, use of x-for (<https://alpinejs.dev/directives/for>) attribute to iterate through lists. These can be found in the RealWorldSharp app, either actively used or just presented as proof of concept
+While this is a simple but common usage of data, more complex scenarios are possible: use of nested x-data, adding JS functions to x-data, use of x-for (<https://alpinejs.dev/directives/for>) attribute to iterate through lists. These can be found in the RealWorldSharp app, either actively used or just presented as proof of concept.
 
 ### More about x-data
 
