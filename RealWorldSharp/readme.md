@@ -6,14 +6,18 @@ See RealWorldSharp AppHead.cs file for an example.
 
 ## 1. Coding with HtmlSharp 
 
-The first step in creating a web application is designing and creating web pages. This is done using HtmlSharp library. 
-The code looks very much like real HTML, but it’s using C# functions and classes instead. Every HTML element has a corresponding function which ultimately generates the exact HTML tag that is targeting.
+First step in creating a web application is designing and creating web pages. This is done using HtmlSharp library. 
+
+Coding with HtmlSharp is very much like working with actual HTML and is in some ways similar with how React coding is done: pseudo HTML mixed with  code, functions that act as reusable components, AJAX calls. However, unlike React, there is no state management, no hooks, no props, no npm, no nodejs.  
+In HtmlSharp, every HTML element has a corresponding function which ultimately generates the exact HTML tag that is targeting.
 For example:
     
-    public static HtmlElement div(…)
+>    public static HtmlElement div(…)
+
 will generate the `<div>` element.
 
-    public static HtmlElement ul(…)
+>    public static HtmlElement ul(…)
+
 will generate `<ul>` element and so on
 	
 Most functions have two arguments: first one is the attributes of the element (can be null) and the second is a list of nested elements (using params keyword). When rendered, they will generate the element tag, the attributes and all nested elements  
