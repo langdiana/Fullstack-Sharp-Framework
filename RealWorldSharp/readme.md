@@ -121,7 +121,7 @@ Then x-data created by JSBuilder is a string that looks like this:
 > item: {Email: "user@google.com", Password: "abc"}
 
 It’s a JSOL with one variable (item) which is initialized with the provided values of the LoginModel.  
-x-text and x-model contain the name of the field that is bound to that HTML element. For ex, in HTML it will look like this:
+x-text/x-model contains the name of the field that is bound to that HTML element. For ex, in HTML it will look like this:
 > x-model="item.Email"
 
 JSBuilder provides a field accessor function so the attributes can be set typesafe, with intelisense, without using strings. The above HTML expression becomes in C#:
