@@ -18,9 +18,9 @@ will generate the `<div>` element.
 
 >    public static HtmlElement ul(…)
 
-will generate `<ul>` element and so on
+will generate `<ul>` element and so on.
 	
-Most functions have two arguments: first one is the attributes of the element (can be null) and the second is a list of nested elements (using params keyword). When rendered, they will generate the element tag, the attributes and all nested elements  
+Most functions have two arguments: first one is the attributes of the element (can be null) and the second is a list of nested elements (using params keyword). When rendered, they will generate the element tag, the attributes and all nested elements.  
 Ex:
 
     public static HtmlElement div(HtmlAttributes? attrs = null, params HtmlElement[] elements)
