@@ -193,8 +193,8 @@ When this is set on some element, the other two attributes mentioned above donâ€
 Note though that there is a catch when using hx-boost. If a nested element is a form and the form doesnâ€™t have any anchors or submit buttons, HTMX will signal an error. For this reason, in RealWorldSharp, any element with a form has hx-boost disabled (hx-boost = false). 
 
 Of course, any anchor element usually also needs a href attribute.  
-If the boost mechanism is not used, hx-get attribute (<https://htmx.org/attributes/hx-get/>) must be used together with href, both pointing to same link (Technically when hx-get is used, href is not required, however using it will make the anchor look normal when hover: cursor change, underline etc)  
-Links can be fixed (constant) or dynamic which in turn can be: server generated (C# expression but constant at runtime) or client generated (from x-data)  
+If the boost mechanism is not used, hx-get attribute (<https://htmx.org/attributes/hx-get/>) must be used together with href, both pointing to same link (Technically when hx-get is used, href is not required, however using it will make the anchor look normal when hover: cursor change, underline etc).  
+Links can be fixed (constant) or dynamic which in turn can be: server generated (C# expression but constant at runtime) or client generated (from x-data).  
 Fixed and server links are just regular C# strings.  
 However client links have a special format and need one more attribute:
 1)	Format  
