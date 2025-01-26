@@ -51,6 +51,8 @@ Ex:
         )
     }
 
+Function LoginPage returns a HTML div element that can be included in other pages or can be rendered and sent directly to browser.
+
 This approach has considerable advantages as opposed to working with real HTML. Perhaps the biggest one is that you can break large pages into smaller, much easier to manage pieces. These pieces can be reused in other parts of your application, or can be shared with other developers as re-useable components.
 
 Also, using HtmlAttributes has some big advantages:
