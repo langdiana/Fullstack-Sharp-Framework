@@ -72,7 +72,7 @@ Note that not all HTML tags are yet implemented in HtmlSharp library. If you enc
 ## 2. Adding data
 
 Data is added to pages using attributes. For this, AlpineJS library is used, specifically the attributes coming with it.  
-The attribute x-data (xData in c#) is made precisely for this: <https://alpinejs.dev/directives/data>  
+The attribute x-data (xData in C#) is made precisely for this: <https://alpinejs.dev/directives/data>  
 It contains a JavaScript object literal ([JSOL](https://playcode.io/javascript/object-literal)) that can be accessed by nested elements to display or edit data. This is done using two more attributes:  
 > x-text (xText): <https://alpinejs.dev/directives/text> - used to display data (readonly)
 
