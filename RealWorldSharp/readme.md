@@ -9,7 +9,7 @@ See RealWorldSharp AppHead.cs file for an example.
 First step in creating a web application is designing and creating web pages. This is done using HtmlSharp library. 
 
 Coding with HtmlSharp is very much like working with actual HTML and is in some ways similar with how React coding is done: pseudo HTML mixed with  code, functions that act as reusable components, AJAX calls. However, unlike React, there is no state management, no hooks, no props, no npm, no nodejs.  
-In HtmlSharp, every HTML element has a corresponding function which ultimately generates the exact HTML tag that is targeting.
+In HtmlSharp, every HTML element has a corresponding function which ultimately generates the exact HTML tag that is targeting.  
 For example:
     
 >    public static HtmlElement div(…)
@@ -32,8 +32,10 @@ A piece of code can look like this:
         )
     )
 
-The first argument is an HtmlAttributes object instantiated and initialized on the fly. Every HTML attribute is a property of the HtmlAttributes class. So this element has 2 attributes: a class and an ID.  
-The second argument is a list of two nested elements: a `<h1>` and a text.  
+> The first argument is an HtmlAttributes object instantiated and initialized on the fly. Every HTML attribute is a property of the HtmlAttributes class. So this element has 2 attributes: a class and an ID.
+
+> The second argument is a list of two nested elements: a `<h1>` and a text.
+
 This code will generate this HTML:
 
     <div class="some class" id="ID1"> <h1 class="text-xs-center">Sign in</h1>
