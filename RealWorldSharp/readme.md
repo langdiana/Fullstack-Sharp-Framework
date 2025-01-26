@@ -127,6 +127,9 @@ x-text/x-model contains the name of the field that is bound to that HTML element
 JSBuilder provides a field accessor function so the attributes can be set typesafe, with intelisense, without using strings. The above HTML expression becomes in C#:
 > xModel = js.Field(x => x.Email)
 
+The field accessor function works with nested objects too, so you can do for ex:
+> xModel = js.Field(x => x.SomeComplexField.NestedField)
+
 JSBuilder has functionality to change the default variable (“item”) to something else. You can also add additional JS code (in the form of C# strings) to x-data
 
 However not all data is processed using x-data. Only data that is handled and changed by the client is using x-data (we call this client data). Ex: Login credentials, article content etc.
