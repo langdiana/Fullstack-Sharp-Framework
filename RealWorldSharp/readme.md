@@ -165,7 +165,7 @@ where “$data” is the AlpineJS global name for x-data, “item” is the JSOL
 So the above attribute would look like this in HTML:  
 > :hx-vals= JSON.stringify($data.item)
 
-RealWorldSharp app combines some of these attributes which always appear in the same order and have same values into custom (or synthetic) attributes, reducing repetitions and enhancing clarity.
+RealWorldSharp app combines some of these attributes which always appear together into custom (or synthetic) attributes, reducing repetitions and enhancing clarity.
 
 ### VERY IMPORTANT
 
