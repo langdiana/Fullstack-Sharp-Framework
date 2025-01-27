@@ -157,7 +157,7 @@ If data is client data, two attributes are needed:
 
 2. x-bind (AlpineJs): <https://alpinejs.dev/directives/bind>  
 
-About this attribute, the HTML format is  
+About x-bind, the HTML format is  
 > x-bind:hx-vals=value
 
 or a shorter form:  
