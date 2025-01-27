@@ -132,8 +132,8 @@ The field accessor function works with nested objects too, so you can do for ex:
 
 JSBuilder has functionality to change the default variable name (“item”) to something else. You can also add additional JS code (in the form of C# strings) to x-data.
 
-However not all data is processed using x-data. Only data that is handled and changed by the client is using x-data (we call this client data). Ex: Login credentials, article content etc.
-Some data is not handled by client, is actually determined by the context and is rendered by server (server data). Ex: Favorite count, Follow count.  
+However not all data is processed using x-data. Only data that is handled and changed by the client (for ex. via x-model) is using x-data. We call this client data. Ex: Login credentials, article content etc.
+Some data is not handled by client, is actually determined by the context and is rendered by server. We call this server data. Ex: Favorite count, Follow count.  
 The difference is very important because client data (x-data) and server data are processed differently.
 
 ## 3. Saving data
@@ -143,18 +143,24 @@ This is done using a Button action and HTMX attributes or a combination of HTMX 
 First of all, data must be some sort of serialized JSON. That means that server data must be a class, even if it has only one member. Client data (x-data) is already JSON but must be handled is a specific way, as seen below.  
 In order to save data, several attributes must be set:
 
+The first one is
 > hx-post (hxPost): <https://htmx.org/attributes/hx-post/> : the url of the endpoint that will process the action (you can also use hx-put or hx-patch)
 
-> hx-vals(jsonVals): <https://htmx.org/attributes/hx-vals/> : a string containing serialized JSON. 
+The next one depends if data is server data or client data.
+If data is server data, a synthetic attribute called jsonVals is used:
+> jsonVals
 
-If data is server data, the value of hx-value is the result of calling JsonConvert.SerializeObject(obj), where obj is an instance of the class defining the data. See FavoriteCounter and FollowCounter components for examples.  
+The value of this attribute is the result of calling JsonConvert.SerializeObject(obj), where obj is an instance of the class defining the data. See FavoriteCounter and FollowCounter components for examples.  
 
-If data is x-data, an additional attribute is used: x-bind (AlpineJs): <https://alpinejs.dev/directives/bind>  
-The format of this attribute is  
+If data is client data, 2 attributes are needed:
+1. hx-vals: <https://htmx.org/attributes/hx-vals/> : a string containing serialized JSON.
+
+2. x-bind (AlpineJs): <https://alpinejs.dev/directives/bind>  
+
+About this attribute, the HTML format is  
 > x-bind:hx-vals=value
 
 or a shorter form:  
-
 > :hx-vals=value
 
 This attribute basically gives access to x-data to other attributes (not part of AlpineJs). In this case it gives access to x-data to hx-vals.
@@ -165,14 +171,17 @@ where “$data” is the AlpineJS global name for x-data, “item” is the JSOL
 So the above attribute would look like this in HTML:  
 > :hx-vals= JSON.stringify($data.item)
 
-RealWorldSharp app combines some of these attributes which always appear together into custom (or synthetic) attributes, reducing repetitions and enhancing clarity.
+However, instead of setting these two attributes manually, you can use a syntetic attribute called xBindVals, which sets both attributes in one call.
+Furthermore, using a JSBuilder property which gets the value from xData, there is only one line of code:
+> hxBindVals = js.JsonData
 
 ### VERY IMPORTANT
 
-Using hx-vals is not the default way of handling data for HTMX, which uses form data instead. In order for hx-vals to work, a custom extension (<https://htmx.org/extensions/>) called “hx-noformdata” was added in the Head of the HTML document. Every time hx-vals is used, an additional attribute must be set (<https://htmx.org/attributes/hx-ext/>): 
+Using hx-vals/jsonVals is not the default way of handling data for HTMX, which uses form data instead. In order for hx-vals to work, a custom extension (<https://htmx.org/extensions/>) called “hx-noformdata” was added in the Head of the HTML document.
+So, when the above attributes jsonVals and hxBindVals are used, an additional attribute must be set (<https://htmx.org/attributes/hx-ext/>): 
 > hx-ext= "hx-noformdata";  
 
-However because they are always used together, the framework automatically add this attribute whenever hx-post is used so you don’t have to add it yourself. 
+However because they are always used together, the framework automatically add this attribute whenever jsonVals or hxBindVals are used so you don’t have to add it yourself. 
 
 ## 4. Navigation and page swapping  
 
