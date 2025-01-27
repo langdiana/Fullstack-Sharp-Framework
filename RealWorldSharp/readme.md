@@ -230,7 +230,7 @@ or use the synthetic attribute xBindRef:
     
     xBindRef = link
 
-RealWorldSharp app doesn’t use client links, however there is a proof of concept function called ArticleListAlternate() in file ArticleList.cs which shows how shd be done
+RealWorldSharp app doesn’t use client links, however there is a proof of concept function called ArticleListAlternate in file ArticleList.cs which shows how shd be done.
 
 Sometimes more than one piece of HTML must be swapped. In this case, the server prepares the required pieces and send them together, side-by-side. 
 In RealWorld there is function called RenderPages in UIBuilder.cs which does exactly this.  
