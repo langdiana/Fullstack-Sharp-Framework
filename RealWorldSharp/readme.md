@@ -62,7 +62,7 @@ Also, using HtmlAttributes has some big advantages:
 -	Attributes can be any type: string, tuple, bool are used but any other type is possible
 -	Syntetic attributes: group of attributes set once
 
-If the element has no attributes, you must pass “null” in its place. Alternatively you can use the special null attribute : “_”, which is almost exclusively used in RealWorldSharp instead of null 
+If the element has no attributes, you must pass “null” in its place. Alternatively you can use the special null attribute : “_”, which is almost exclusively used in RealWorldSharp instead of null. 
 
 As an alternative to manually coding every element, an utility (called HtmlConverter) is provided that will take a piece of existing HTML and will generate C# code. You can design the pages in your favorite web designer, copy the produced HTML and paste into HtmlConverter and you have now the C# code to continue with the development.  
 Actually this is how the pages in RealWorldSharp app were produced: the HTML code was copied from the provided templates and the C# code was generated for me.
@@ -130,7 +130,7 @@ JSBuilder provides a field accessor function so the attributes can be set typesa
 The field accessor function works with nested objects too, so you can do for ex:
 > xModel = js.Field(x => x.SomeComplexField.NestedField)
 
-JSBuilder has functionality to change the default variable (“item”) to something else. You can also add additional JS code (in the form of C# strings) to x-data
+JSBuilder has functionality to change the default variable name (“item”) to something else. You can also add additional JS code (in the form of C# strings) to x-data.
 
 However not all data is processed using x-data. Only data that is handled and changed by the client is using x-data (we call this client data). Ex: Login credentials, article content etc.
 Some data is not handled by client, is actually determined by the context and is rendered by server (server data). Ex: Favorite count, Follow count.  
