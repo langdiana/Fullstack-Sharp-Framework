@@ -146,13 +146,13 @@ In order to save data, several attributes must be set:
 The first one is
 > hx-post (hxPost): <https://htmx.org/attributes/hx-post/> : the url of the endpoint that will process the action (you can also use hx-put or hx-patch)
 
-The next one depends if data is server data or client data.
+The next one depends if data is server data or client data.  
 If data is server data, a synthetic attribute called jsonVals is used:
 > jsonVals
 
 The value of this attribute is the result of calling JsonConvert.SerializeObject(obj), where obj is an instance of the class defining the data. See FavoriteCounter and FollowCounter components for examples.  
 
-If data is client data, two attributes are needed:
+If data is client data, two more attributes are needed:
 1. hx-vals: <https://htmx.org/attributes/hx-vals/> : a string containing serialized JSON.
 
 2. x-bind (AlpineJs): <https://alpinejs.dev/directives/bind>  
