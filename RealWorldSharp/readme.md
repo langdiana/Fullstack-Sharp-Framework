@@ -152,7 +152,7 @@ If data is server data, a synthetic attribute called jsonVals is used:
 
 The value of this attribute is the result of calling JsonConvert.SerializeObject(obj), where obj is an instance of the class defining the data. See FavoriteCounter and FollowCounter components for examples.  
 
-If data is client data, 2 attributes are needed:
+If data is client data, two attributes are needed:
 1. hx-vals: <https://htmx.org/attributes/hx-vals/> : a string containing serialized JSON.
 
 2. x-bind (AlpineJs): <https://alpinejs.dev/directives/bind>  
