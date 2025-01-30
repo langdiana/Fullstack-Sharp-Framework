@@ -14,7 +14,7 @@ AlpineJs is handling client interactivity and bidirectional data-binding in the 
 
 The usage of these libraries is almost entirely transparent for the user and actual JavaScript code required is minimal or even nonexistent. Total size of these two libraries is very small and because there are no other dependencies the web pages load very fast.
 
-### How it works
+## How it works
 
 ## Prerequisites
 
