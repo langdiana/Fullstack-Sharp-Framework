@@ -1,7 +1,24 @@
+## Fullstack Sharp Framework - React/Blazor alternative
+
+### Build end to end web applications using C# only
+
+Fullstack Sharp Framework is a set of libraries, utilities and guidelines for building Single Page web applications using only C#, ASP.Net and Visual Studio, no JS framework required and also no Blazor/razor pages.
+
+The main component of the framework is HtmlSharp, an inhouse library for creating user interfaces that generates HTML from C# code in the form of SSR pages or fragments of page. Coding with HtmlSharp resembles very much the HTML that it generates and is in some ways similar with how React coding is done: pseudo HTML mixed with actual code, functions that act as reusable components, AJAX calls. However, unlike React, there is no state management, no hooks, no props, no npm, no nodejs.
+
+HtmlSharp uses two third party JavaScript libraries with distinct and very important roles: HTMX(https://htmx.org/) and Alpine.js(https://alpinejs.dev/).
+
+HTMX is in charge of AJAX requests and two-way communication between browser and server: data from browser to server and HTML from server to browser.
+
+AlpineJs is handling client interactivity and bidirectional data-binding in the browser.
+
+The usage of these libraries is almost entirely transparent for the user and actual JavaScript code required is minimal or even nonexistent. Total size of these two libraries is very small and because there are no other dependencies the web pages load very fast.
+
+### How it works
+
 ## Prerequisites
 
-Fullstack Sharp Framework uses HTMX (<https://htmx.org/>) and AlpineJS(<https://alpinejs.dev/>) libraries.
-For this, the web pages created with the framework must include scripts to install these libraries, usually in the Head section of the web page.
+Web pages created with the framework must include scripts to install these HTMX and AlpineJs libraries, usually in the Head section of the web page.
 See RealWorldSharp AppHead.cs file for an example.
 
 ## 1. Coding with HtmlSharp 
