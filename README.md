@@ -15,7 +15,7 @@ For more information on how to this works with other frontends/backends, head ov
 # How it works
 
 Whole application is built in C# but is not using Blazor or razor pages.  
-Frontend is created using C# HtmlSharp library and C# wrappers for HTMX and AlpineJs.  
+Frontend is created using C# SharpHtml library and C# wrappers for HTMX and AlpineJs.  
 Backend is using ASP.Net MinimalApi and EFCore.  
 Details about implementation and Fullstack Sharp Framework [here](https://github.com/langdiana/Fullstack-Sharp-Framework/blob/main/RealWorldSharp/readme.md) 
 
@@ -24,7 +24,7 @@ Details about implementation and Fullstack Sharp Framework [here](https://github
 RealWorldSharp is a C# VS2022 solution with 5 projects:
 - RealWorldSharp - C# project
 - RealWorldSharp.Test - C# testing project
-- HtmlSharp library
+- SharpHtml library
 - HtmlConverter - a Windows utility that converts HTML to C#
 - Lorem(https://github.com/dochoffiday/Lorem.NET) - a helper class library used for this demo to generate random data, upgraded to Net.8
 
