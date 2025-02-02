@@ -4,9 +4,9 @@
 
 Fullstack Sharp Framework is a set of libraries, utilities and guidelines for building Single Page web applications using only C#, ASP.Net and Visual Studio, no JS framework required and also no Blazor/razor pages.
 
-The main component of the framework is HtmlSharp, an inhouse library for creating user interfaces that generates HTML from C# code in the form of SSR pages or fragments of page. Coding with HtmlSharp resembles very much the HTML that it generates and is in some ways similar with how React coding is done: pseudo HTML mixed with actual code, functions that act as reusable components, AJAX calls. However, unlike React, there is no state management, no hooks, no props, no npm, no nodejs.
+The main component of the framework is SharpHtml, an inhouse library for creating user interfaces that generates HTML from C# code in the form of SSR pages or fragments of page. Coding with SharpHtml resembles very much the HTML that it generates and is in some ways similar with how React coding is done: pseudo HTML mixed with actual code, functions that act as reusable components, AJAX calls. However, unlike React, there is no state management, no hooks, no props, no npm, no nodejs.
 
-HtmlSharp uses two third party JavaScript libraries with distinct and very important roles: HTMX(https://htmx.org/) and Alpine.js(https://alpinejs.dev/).
+SharpHtml uses two third party JavaScript libraries with distinct and very important roles: HTMX(https://htmx.org/) and Alpine.js(https://alpinejs.dev/).
 
 HTMX is in charge of AJAX requests and two-way communication between browser and server: data from browser to server and HTML from server to browser.
 
@@ -21,12 +21,12 @@ The usage of these libraries is almost entirely transparent for the user and act
 Web pages created with the framework must include scripts to install HTMX and AlpineJs libraries, usually in the Head section of the web page.
 See RealWorldSharp AppHead.cs file for an example.
 
-## 1. Coding with HtmlSharp 
+## 1. Coding with SharpHtml 
 
-First step in creating a web application is designing and creating web pages. This is done using HtmlSharp library. 
+First step in creating a web application is designing and creating web pages. This is done using SharpHtml library. 
 
 Coding with HtmlSharp is very much like working with actual HTML and is in some ways similar with how React coding is done: pseudo HTML mixed with  code, functions that act as reusable components, AJAX calls. However, unlike React, there is no state management, no hooks, no props, no npm, no nodejs.  
-In HtmlSharp, every HTML element has a corresponding function which ultimately generates the exact HTML tag that is targeting.  
+In SharpHtml, every HTML element has a corresponding function which ultimately generates the exact HTML tag that is targeting.  
 For example:
     
 >    public static HtmlElement div(…)
@@ -84,7 +84,7 @@ If the element has no attributes, you must pass “null” in its place. Alterna
 As an alternative to manually coding every element, an utility (called HtmlConverter) is provided that will take a piece of existing HTML and will generate C# code. You can design the pages in your favorite web designer, copy the produced HTML and paste into HtmlConverter and you have now the C# code to continue with the development.  
 Actually this is how the pages in RealWorldSharp app were produced: the HTML code was copied from the provided templates and the C# code was generated for me.
 
-Note that not all HTML tags are yet implemented in HtmlSharp library. If you encounter one that is missing you can add to your local copy of HtmlSharp, or raise an Issue in GitHub and I will add it.
+Note that not all HTML tags are yet implemented in SharpHtml library. If you encounter one that is missing you can add to your local copy of HtmlSharp, or raise an Issue in GitHub and I will add it.
 
 ## 2. Adding data
 
@@ -206,7 +206,7 @@ FSS is an SPA building framework. The server, most of the time, is sending only 
 For example, RealWorldSharp app has a header, a footer and some content (called main content) in between. Most navigation inside the site involves only changing the main content, while header and footer remain unchanged. (However the HTML being swapped may be much smaller, maybe as small as a single button or label). Any time an internal link is clicked, only the main content is sent to browser, replacing the existing content.  
 This is called HTML swapping and is accomplished using the HTMX library. 
 For more details of how swapping works, please see this: <https://htmx.org/docs/>  
-With HtmlSharp this is done by setting two attributes of the element that triggers the navigation (usually an anchor (`<a>` tag) or a button, but any element can be used for this):
+With SharpHtml this is done by setting two attributes of the element that triggers the navigation (usually an anchor (`<a>` tag) or a button, but any element can be used for this):
 > hx-target (hxTarget) <https://htmx.org/attributes/hx-target/>: set to the ID of the element that must be replaced. The actual format is:  
     `hx-target = #ID`, note that the ID must be prefixed with # char
 
@@ -250,7 +250,7 @@ or use the synthetic attribute xBindRef:
 RealWorldSharp app doesn’t use client links, however there is a proof of concept function called ArticleListAlternate in file ArticleList.cs which shows how shd be done.
 
 Sometimes more than one piece of HTML must be swapped. In this case, the server prepares the required pieces and send them together, side-by-side. 
-In RealWorld there is function called RenderPages in UIBuilder.cs which does exactly this.  
+In RealWorldSharp there is function called RenderPages in UIBuilder.cs which does exactly this.  
 Only one piece is swapped normally (using hx-target). The rest use a mechanism called Out of Band swap (https://htmx.org/attributes/hx-swap-oob/) and must have the attribute hx-swap-oob = “true” (hxOob = true in HtmlSharp). Look for example in FollowHandler.cs to see how is done. 
 
 ### IMPORTANT
@@ -298,7 +298,7 @@ All tests are done against CommandHandlers. There are 3 types of testing:
 All of the above may look a bit complicated a first but in the end it's mostly just a matter of setting some attributes and taking care of some quirks here and there.
 
 The process of creating a web app, page by page, is like this:
--	Design and implement your page in C# using HtmlSharp
+-	Design and implement your page in C# using SharpHtml
 -	Alternatively, design you page in a separate web designer app or copy the html from other web site or template and generate C# code using HtmlConverter app
 -	Create the command handler that renders the page
 -	Test the page using the CommandBase.Result which contains the page’s html. You can load the page in a browser or do unit tests before the rest of the app is even started
