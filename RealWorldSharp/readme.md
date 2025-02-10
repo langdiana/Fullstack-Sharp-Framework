@@ -95,7 +95,7 @@ It contains a JavaScript object literal ([JSOL](https://playcode.io/javascript/o
 
 > x-model (xModel): <https://alpinejs.dev/directives/model> - used to edit data
 
-For a typical HtmlSharp component, this mechanism is totally automatic and wrapped in C#, no JS is required. This is done using a helper class called JSBuilder which converts a C# class into a JSOL and provides type safe access to its members.  
+For a typical SharpHtml component, this mechanism is totally automatic and wrapped in C#, no JS is required. This is done using a helper class called JSBuilder which converts a C# class into a JSOL and provides type safe access to its members.  
 This is the equivalent of data aware programming in WinForms with the HTML elements as data aware controls and x-data as data source.
 
 Ex:
