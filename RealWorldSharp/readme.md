@@ -236,7 +236,7 @@ This is actually a JS expression with several parts, some fixed and some variabl
 
 A link can have more than two parts but all must follow the same rules: constant parts surrounded by single quotes and all parts separated by “+”
 
-2)	In order to use x-data, the x-bind attribute must be used, binding the href (or hx-get if not boosted) attribute:  
+2)	In order to use x-data, the x-bind attribute must be used, binding the href attribute:  
 HTML:  
   	`:href = link`
 
