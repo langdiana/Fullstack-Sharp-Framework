@@ -84,7 +84,7 @@ If the element has no attributes, you must pass “null” in its place. Alterna
 As an alternative to manually coding every element, an utility (called HtmlConverter) is provided that will take a piece of existing HTML and will generate C# code. You can design the pages in your favorite web designer, copy the produced HTML and paste into HtmlConverter and you have now the C# code to continue with the development.  
 Actually this is how the pages in RealWorldSharp app were produced: the HTML code was copied from the provided templates and the C# code was generated for me.
 
-Note that not all HTML tags are yet implemented in SharpHtml library. If you encounter one that is missing you can add to your local copy of HtmlSharp, or raise an Issue in GitHub and I will add it.
+Note that not all HTML tags are yet implemented in SharpHtml library. If you encounter one that is missing you can add to your local copy of SharpHtml, or raise an Issue in GitHub and I will add it.
 
 ## 2. Adding data
 
